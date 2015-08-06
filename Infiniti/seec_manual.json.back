@@ -1,0 +1,72 @@
+{
+  "dataroot": {
+    "@xmlns:od": "urn:schemas-microsoft-com:officedata",
+    "@generated": "2013-03-01T16:41:50",
+    "seec_manual": [
+      {
+        "LK_manualId": "1",
+        "phaseNum": "1",
+        "manualGuid": "Ventas",
+        "manualName1": "Ventas",
+        "manualName2": "Ventas",
+        "mnlGuid": "vnt"
+      },
+      {
+        "LK_manualId": "2",
+        "phaseNum": "1",
+        "manualGuid": "Green Program",
+        "manualName1": "Green Program",
+        "manualName2": "Green Program",
+        "mnlGuid": "gp"
+      },
+      {
+        "LK_manualId": "3",
+        "phaseNum": "1",
+        "manualGuid": "Body & Paint",
+        "manualName1": "Body & Paint",
+        "manualName2": "Hojalateria y Pintura",
+        "mnlGuid": "bp"
+      },
+      {
+        "LK_manualId": "4",
+        "phaseNum": "1",
+        "manualGuid": "Administración",
+        "manualName1": "Administración",
+        "manualName2": "Administración",
+        "mnlGuid": "adm"
+      },
+      {
+        "LK_manualId": "5",
+        "phaseNum": "1",
+        "manualGuid": "Identidad Visual",
+        "manualName1": "Identidad Visual",
+        "manualName2": "Identidad Visual",
+        "mnlGuid": "ivs"
+      },
+      {
+        "LK_manualId": "6",
+        "phaseNum": "1",
+        "manualGuid": "Servicio",
+        "manualName1": "Servicio",
+        "manualName2": "Servicio",
+        "mnlGuid": "srv"
+      },
+      {
+        "LK_manualId": "7",
+        "phaseNum": "1",
+        "manualGuid": "Refacciones",
+        "manualName1": "Refacciones",
+        "manualName2": "Refacciones",
+        "mnlGuid": "ref"
+      },
+      {
+        "LK_manualId": "8",
+        "phaseNum": "1",
+        "manualGuid": "Marketing",
+        "manualName1": "Marketing",
+        "manualName2": "Marketing",
+        "mnlGuid": "mkt"
+      }
+      ]
+  }
+}

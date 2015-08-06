@@ -1,0 +1,50 @@
+{
+  "dataroot": {
+    "@xmlns:od": "urn:schemas-microsoft-com:officedata",
+    "@generated": "2012-08-27T12:45:10",
+    "seec_role": [
+          {
+            "@diffgr:id": "Table1",
+            "@msdata:rowOrder": "0",
+            "LK_roleId": "1",
+            "role": "Administrador"
+          },
+          {
+            "@diffgr:id": "Table2",
+            "@msdata:rowOrder": "1",
+            "LK_roleId": "2",
+            "role": "Auditor"
+          },
+          {
+            "@diffgr:id": "Table3",
+            "@msdata:rowOrder": "2",
+            "LK_roleId": "3",
+            "role": "Visor General"
+          },
+          {
+            "@diffgr:id": "Table4",
+            "@msdata:rowOrder": "3",
+            "LK_roleId": "4",
+            "role": "Visor Zona General"
+          },
+          {
+            "@diffgr:id": "Table5",
+            "@msdata:rowOrder": "4",
+            "LK_roleId": "5",
+            "role": "Visor Zona Específica"
+          },
+          {
+            "@diffgr:id": "Table6",
+            "@msdata:rowOrder": "5",
+            "LK_roleId": "6",
+            "role": "Visor Local"
+          },
+          {
+            "@diffgr:id": "Table7",
+            "@msdata:rowOrder": "6",
+            "LK_roleId": "7",
+            "role": "Responsable"
+          }
+        ]
+      }
+    }

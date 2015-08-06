@@ -1,0 +1,50 @@
+{
+    "dataroot": {
+        "@xmlns:od": "urn:schemas-microsoft-com:officedata",
+        "@generated": "2012-08-27T12:43:25",
+        "seec_city": [
+                      {
+                      "@diffgr:id": "Table1",
+                      "@msdata:rowOrder": "0",
+                      "LK_cityId": "1",
+                      "FK_stateId": "1",
+                      "cityName": "Huixquilucan"
+                      },
+                      {
+                      "@diffgr:id": "Table2",
+                      "@msdata:rowOrder": "1",
+                      "LK_cityId": "2",
+                      "FK_stateId": "2",
+                      "cityName": "Álvaro Obregón"
+                      },
+                      {
+                      "@diffgr:id": "Table3",
+                      "@msdata:rowOrder": "2",
+                      "LK_cityId": "3",
+                      "FK_stateId": "2",
+                      "cityName": "Benito Juárez"
+                      },
+                      {
+                      "@diffgr:id": "Table4",
+                      "@msdata:rowOrder": "3",
+                      "LK_cityId": "4",
+                      "FK_stateId": "2",
+                      "cityName": "Miguel Hidalgo"
+                      },
+                      {
+                      "@diffgr:id": "Table5",
+                      "@msdata:rowOrder": "4",
+                      "LK_cityId": "5",
+                      "FK_stateId": "3",
+                      "cityName": "Monterrey"
+                      },
+                      {
+                      "@diffgr:id": "Table6",
+                      "@msdata:rowOrder": "5",
+                      "LK_cityId": "6",
+                      "FK_stateId": "4",
+                      "cityName": "Zapopan"
+                      }
+                      ]
+    }
+}

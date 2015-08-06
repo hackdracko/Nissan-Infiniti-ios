@@ -1,0 +1,857 @@
+{
+  "dataroot": {
+    "@xmlns:od": "urn:schemas-microsoft-com:officedata",
+    "@generated": "2013-03-01T16:41:50",
+    "seec_manual": [
+      {
+        "LK_manualId": "1",
+        "phaseNum": "1",
+        "manualGuid": "NSSW",
+        "manualName1": "Nissan Sales & Service Way",
+        "manualName2": "Ventas",
+        "mnlGuid": "vnt"
+      },
+      {
+        "LK_manualId": "2",
+        "phaseNum": "1",
+        "manualGuid": "NSOS",
+        "manualName1": "Nissan Service Operation Standard",
+        "manualName2": "Servicio",
+        "mnlGuid": "srv"
+      },
+      {
+        "LK_manualId": "3",
+        "phaseNum": "1",
+        "manualGuid": "AS-DOS",
+        "manualName1": "After Sales - Dealer Operation Standard",
+        "manualName2": "Refacciones",
+        "mnlGuid": "ref"
+      },
+      {
+        "LK_manualId": "4",
+        "phaseNum": "1",
+        "manualGuid": "NSGP",
+        "manualName1": "Nissan Standard Green Program",
+        "manualName2": "Green Program",
+        "mnlGuid": "gpr"
+      },
+      {
+        "LK_manualId": "5",
+        "phaseNum": "1",
+        "manualGuid": "NREDI",
+        "manualName1": "Nissan Retail Environmental Design Initiatives",
+        "manualName2": "Identidad Visual",
+        "mnlGuid": "ivs"
+      },
+      {
+        "LK_manualId": "6",
+        "phaseNum": "1",
+        "manualGuid": "NMOS",
+        "manualName1": "Nissan Marketing Operation Standard",
+        "manualName2": "Mercadotecnia",
+        "mnlGuid": "mct"
+      },
+      {
+        "LK_manualId": "7",
+        "phaseNum": "1",
+        "manualGuid": "NSBP",
+        "manualName1": "Nissan Service of  Body & Paint Program",
+        "manualName2": "Body Paint",
+        "mnlGuid": "hjl"
+      },
+      {
+        "LK_manualId": "8",
+        "phaseNum": "1",
+        "manualGuid": "NAOS",
+        "manualName1": "Nissan Administrative Operation Standard",
+        "manualName2": "Administración",
+        "mnlGuid": "adm"
+      },
+      {
+        "LK_manualId": "9",
+        "phaseNum": "2",
+        "manualGuid": "NSSW",
+        "manualName1": "Nissan Sales & Service Way",
+        "manualName2": "Ventas",
+        "mnlGuid": "vnt"
+      },
+      {
+        "LK_manualId": "10",
+        "phaseNum": "2",
+        "manualGuid": "NSOS",
+        "manualName1": "Nissan Service Operation Standard",
+        "manualName2": "Servicio",
+        "mnlGuid": "srv"
+      },
+      {
+        "LK_manualId": "11",
+        "phaseNum": "2",
+        "manualGuid": "AS-DOS",
+        "manualName1": "After Sales - Dealer Operation Standard",
+        "manualName2": "Refacciones",
+        "mnlGuid": "ref"
+      },
+      {
+        "LK_manualId": "12",
+        "phaseNum": "2",
+        "manualGuid": "NSGP",
+        "manualName1": "Nissan Standard Green Program",
+        "manualName2": "Green Program",
+        "mnlGuid": "gpr"
+      },
+      {
+        "LK_manualId": "13",
+        "phaseNum": "2",
+        "manualGuid": "NREDI",
+        "manualName1": "Nissan Retail Environmental Design Initiatives",
+        "manualName2": "Identidad Visual",
+        "mnlGuid": "ivs"
+      },
+      {
+        "LK_manualId": "14",
+        "phaseNum": "2",
+        "manualGuid": "NMOS",
+        "manualName1": "Nissan Marketing Operation Standard",
+        "manualName2": "Mercadotecnia",
+        "mnlGuid": "mct"
+      },
+      {
+        "LK_manualId": "15",
+        "phaseNum": "2",
+        "manualGuid": "B&P-DOS",
+        "manualName1": "Body & Paint - Dealer Operation Standard",
+        "manualName2": "Hojalatería y Pintura",
+        "mnlGuid": "hjl"
+      },
+      {
+        "LK_manualId": "16",
+        "phaseNum": "2",
+        "manualGuid": "NAOS",
+        "manualName1": "Nissan Administrative Operation Standard",
+        "manualName2": "Administración",
+        "mnlGuid": "adm"
+      },
+      {
+        "LK_manualId": "17",
+        "phaseNum": "3",
+        "manualGuid": "NSSW",
+        "manualName1": "Nissan Sales & Service Way",
+        "manualName2": "Ventas",
+        "mnlGuid": "vnt"
+      },
+      {
+        "LK_manualId": "18",
+        "phaseNum": "3",
+        "manualGuid": "NSOS",
+        "manualName1": "Nissan Service Operation Standard",
+        "manualName2": "Servicio",
+        "mnlGuid": "srv"
+      },
+      {
+        "LK_manualId": "19",
+        "phaseNum": "3",
+        "manualGuid": "AS-DOS",
+        "manualName1": "After Sales - Dealer Operation Standard",
+        "manualName2": "Refacciones",
+        "mnlGuid": "ref"
+      },
+      {
+        "LK_manualId": "20",
+        "phaseNum": "3",
+        "manualGuid": "NSGP",
+        "manualName1": "Nissan Standard Green Program",
+        "manualName2": "Green Program",
+        "mnlGuid": "gpr"
+      },
+      {
+        "LK_manualId": "21",
+        "phaseNum": "3",
+        "manualGuid": "NREDI",
+        "manualName1": "Nissan Retail Environmental Design Initiatives",
+        "manualName2": "Identidad Visual",
+        "mnlGuid": "ivs"
+      },
+      {
+        "LK_manualId": "22",
+        "phaseNum": "3",
+        "manualGuid": "NMOS",
+        "manualName1": "Nissan Marketing Operation Standard",
+        "manualName2": "Mercadotecnia",
+        "mnlGuid": "mct"
+      },
+      {
+        "LK_manualId": "23",
+        "phaseNum": "3",
+        "manualGuid": "B&P-DOS",
+        "manualName1": "Body & Paint - Dealer Operation Standard",
+        "manualName2": "Hojalatería y Pintura",
+        "mnlGuid": "hjl"
+      },
+      {
+        "LK_manualId": "24",
+        "phaseNum": "3",
+        "manualGuid": "NAOS",
+        "manualName1": "Nissan Administrative Operation Standard",
+        "manualName2": "Administración",
+        "mnlGuid": "adm"
+      },
+      {
+        "LK_manualId": "25",
+        "phaseNum": "3",
+        "manualGuid": "NSRC",
+        "manualName1": "Nissan Standard Retail Concept",
+        "manualName2": "Retail",
+        "mnlGuid": "rtl"
+      },
+      {
+        "LK_manualId": "26",
+        "phaseNum": "4",
+        "manualGuid": "NSSW",
+        "manualName1": "Nissan Sales & Service Way",
+        "manualName2": "Ventas",
+        "mnlGuid": "vnt"
+      },
+      {
+        "LK_manualId": "27",
+        "phaseNum": "4",
+        "manualGuid": "NSOS",
+        "manualName1": "Nissan Service Operation Standard",
+        "manualName2": "Servicio",
+        "mnlGuid": "srv"
+      },
+      {
+        "LK_manualId": "28",
+        "phaseNum": "4",
+        "manualGuid": "AS-DOS",
+        "manualName1": "After Sales - Dealer Operation Standard",
+        "manualName2": "Refacciones",
+        "mnlGuid": "ref"
+      },
+      {
+        "LK_manualId": "29",
+        "phaseNum": "4",
+        "manualGuid": "NSGP",
+        "manualName1": "Nissan Standard Green Program",
+        "manualName2": "Green Program",
+        "mnlGuid": "gpr"
+      },
+      {
+        "LK_manualId": "30",
+        "phaseNum": "4",
+        "manualGuid": "NREDI",
+        "manualName1": "Nissan Retail Environmental Design Initiatives",
+        "manualName2": "Identidad Visual",
+        "mnlGuid": "ivs"
+      },
+      {
+        "LK_manualId": "31",
+        "phaseNum": "4",
+        "manualGuid": "NMOS",
+        "manualName1": "Nissan Marketing Operation Standard",
+        "manualName2": "Mercadotecnia",
+        "mnlGuid": "mct"
+      },
+      {
+        "LK_manualId": "32",
+        "phaseNum": "4",
+        "manualGuid": "B&P-DOS",
+        "manualName1": "Body & Paint - Dealer Operation Standard",
+        "manualName2": "Hojalatería y Pintura",
+        "mnlGuid": "hjl"
+      },
+      {
+        "LK_manualId": "33",
+        "phaseNum": "4",
+        "manualGuid": "NAOS",
+        "manualName1": "Nissan Administrative Operation Standard",
+        "manualName2": "Administración",
+        "mnlGuid": "adm"
+      },
+      {
+        "LK_manualId": "34",
+        "phaseNum": "4",
+        "manualGuid": "NSRC",
+        "manualName1": "Nissan Standard Retail Concept",
+        "manualName2": "Retail",
+        "mnlGuid": "rtl"
+      },
+      {
+        "LK_manualId": "35",
+        "phaseNum": "5",
+        "manualGuid": "NSSW",
+        "manualName1": "Nissan Sales & Service Way",
+        "manualName2": "Ventas",
+        "mnlGuid": "vnt"
+      },
+      {
+        "LK_manualId": "36",
+        "phaseNum": "5",
+        "manualGuid": "NSOS",
+        "manualName1": "Nissan Service Operation Standard",
+        "manualName2": "Servicio",
+        "mnlGuid": "srv"
+      },
+      {
+        "LK_manualId": "37",
+        "phaseNum": "5",
+        "manualGuid": "AS-DOS",
+        "manualName1": "After Sales - Dealer Operation Standard",
+        "manualName2": "Refacciones",
+        "mnlGuid": "ref"
+      },
+      {
+        "LK_manualId": "38",
+        "phaseNum": "5",
+        "manualGuid": "NSGP",
+        "manualName1": "Nissan Standard Green Program",
+        "manualName2": "Green Program",
+        "mnlGuid": "gpr"
+      },
+      {
+        "LK_manualId": "39",
+        "phaseNum": "5",
+        "manualGuid": "NREDI",
+        "manualName1": "Nissan Retail Environmental Design Initiatives",
+        "manualName2": "Identidad Visual",
+        "mnlGuid": "ivs"
+      },
+      {
+        "LK_manualId": "40",
+        "phaseNum": "5",
+        "manualGuid": "NMOS",
+        "manualName1": "Nissan Marketing Operation Standard",
+        "manualName2": "Mercadotecnia",
+        "mnlGuid": "mct"
+      },
+      {
+        "LK_manualId": "41",
+        "phaseNum": "5",
+        "manualGuid": "B&P-DOS",
+        "manualName1": "Body & Paint - Dealer Operation Standard",
+        "manualName2": "Hojalatería y Pintura",
+        "mnlGuid": "hjl"
+      },
+      {
+        "LK_manualId": "42",
+        "phaseNum": "5",
+        "manualGuid": "NAOS",
+        "manualName1": "Nissan Administrative Operation Standard",
+        "manualName2": "Administración",
+        "mnlGuid": "adm"
+      },
+      {
+        "LK_manualId": "43",
+        "phaseNum": "5",
+        "manualGuid": "NSRC",
+        "manualName1": "Nissan Standard Retail Concept",
+        "manualName2": "Retail",
+        "mnlGuid": "rtl"
+      },
+      {
+        "LK_manualId": "44",
+        "phaseNum": "6",
+        "manualGuid": "NSSW",
+        "manualName1": "Nissan Sales & Service Way",
+        "manualName2": "Ventas",
+        "mnlGuid": "vnt"
+      },
+      {
+        "LK_manualId": "45",
+        "phaseNum": "6",
+        "manualGuid": "NSOS",
+        "manualName1": "Nissan Service Operation Standard",
+        "manualName2": "Servicio",
+        "mnlGuid": "srv"
+      },
+      {
+        "LK_manualId": "46",
+        "phaseNum": "6",
+        "manualGuid": "AS-DOS",
+        "manualName1": "After Sales - Dealer Operation Standard",
+        "manualName2": "Refacciones",
+        "mnlGuid": "ref"
+      },
+      {
+        "LK_manualId": "47",
+        "phaseNum": "6",
+        "manualGuid": "NSGP",
+        "manualName1": "Nissan Standard Green Program",
+        "manualName2": "Green Program",
+        "mnlGuid": "gpr"
+      },
+      {
+        "LK_manualId": "48",
+        "phaseNum": "6",
+        "manualGuid": "NREDI",
+        "manualName1": "Nissan Retail Environmental Design Initiatives",
+        "manualName2": "Identidad Visual",
+        "mnlGuid": "ivs"
+      },
+      {
+        "LK_manualId": "49",
+        "phaseNum": "6",
+        "manualGuid": "NMOS",
+        "manualName1": "Nissan Marketing Operation Standard",
+        "manualName2": "Mercadotecnia",
+        "mnlGuid": "mct"
+      },
+      {
+        "LK_manualId": "50",
+        "phaseNum": "6",
+        "manualGuid": "B&P-DOS",
+        "manualName1": "Body & Paint - Dealer Operation Standard",
+        "manualName2": "Hojalatería y Pintura",
+        "mnlGuid": "hjl"
+      },
+      {
+        "LK_manualId": "51",
+        "phaseNum": "6",
+        "manualGuid": "NAOS",
+        "manualName1": "Nissan Administrative Operation Standard",
+        "manualName2": "Administración",
+        "mnlGuid": "adm"
+      },
+      {
+        "LK_manualId": "52",
+        "phaseNum": "6",
+        "manualGuid": "NSRC",
+        "manualName1": "Nissan Standard Retail Concept",
+        "manualName2": "Retail",
+        "mnlGuid": "rtl"
+      },
+      {
+        "LK_manualId": "53",
+        "phaseNum": "7",
+        "manualGuid": "NSSW",
+        "manualName1": "Nissan Sales & Service Way",
+        "manualName2": "Ventas",
+        "mnlGuid": "vnt"
+      },
+      {
+        "LK_manualId": "54",
+        "phaseNum": "7",
+        "manualGuid": "NSOS",
+        "manualName1": "Nissan Service Operation Standard",
+        "manualName2": "Servicio",
+        "mnlGuid": "srv"
+      },
+      {
+        "LK_manualId": "55",
+        "phaseNum": "7",
+        "manualGuid": "AS-DOS",
+        "manualName1": "After Sales - Dealer Operation Standard",
+        "manualName2": "Refacciones",
+        "mnlGuid": "ref"
+      },
+      {
+        "LK_manualId": "56",
+        "phaseNum": "7",
+        "manualGuid": "NSGP",
+        "manualName1": "Nissan Standard Green Program",
+        "manualName2": "Green Program",
+        "mnlGuid": "gpr"
+      },
+      {
+        "LK_manualId": "57",
+        "phaseNum": "7",
+        "manualGuid": "NREDI",
+        "manualName1": "Nissan Retail Environmental Design Initiatives",
+        "manualName2": "Identidad Visual",
+        "mnlGuid": "ivs"
+      },
+      {
+        "LK_manualId": "58",
+        "phaseNum": "7",
+        "manualGuid": "NMOS",
+        "manualName1": "Nissan Marketing Operation Standard",
+        "manualName2": "Mercadotecnia",
+        "mnlGuid": "mct"
+      },
+      {
+        "LK_manualId": "59",
+        "phaseNum": "7",
+        "manualGuid": "B&P-DOS",
+        "manualName1": "Body & Paint - Dealer Operation Standard",
+        "manualName2": "Hojalatería y Pintura",
+        "mnlGuid": "hjl"
+      },
+      {
+        "LK_manualId": "60",
+        "phaseNum": "7",
+        "manualGuid": "NAOS",
+        "manualName1": "Nissan Administrative Operation Standard",
+        "manualName2": "Administración",
+        "mnlGuid": "adm"
+      },
+      {
+        "LK_manualId": "61",
+        "phaseNum": "7",
+        "manualGuid": "NSRC",
+        "manualName1": "Nissan Standard Retail Concept",
+        "manualName2": "Retail",
+        "mnlGuid": "rtl"
+      },
+      {
+        "LK_manualId": "62",
+        "phaseNum": "8",
+        "manualGuid": "NSSW",
+        "manualName1": "Nissan Sales & Service Way",
+        "manualName2": "Ventas",
+        "mnlGuid": "vnt"
+      },
+      {
+        "LK_manualId": "63",
+        "phaseNum": "8",
+        "manualGuid": "NSOS",
+        "manualName1": "Nissan Service Operation Standard",
+        "manualName2": "Servicio",
+        "mnlGuid": "srv"
+      },
+      {
+        "LK_manualId": "64",
+        "phaseNum": "8",
+        "manualGuid": "AS-DOS",
+        "manualName1": "After Sales - Dealer Operation Standard",
+        "manualName2": "Refacciones",
+        "mnlGuid": "ref"
+      },
+      {
+        "LK_manualId": "65",
+        "phaseNum": "8",
+        "manualGuid": "NSGP",
+        "manualName1": "Nissan Standard Green Program",
+        "manualName2": "Green Program",
+        "mnlGuid": "gpr"
+      },
+      {
+        "LK_manualId": "66",
+        "phaseNum": "8",
+        "manualGuid": "NREDI",
+        "manualName1": "Nissan Retail Environmental Design Initiatives",
+        "manualName2": "Identidad Visual",
+        "mnlGuid": "ivs"
+      },
+      {
+        "LK_manualId": "67",
+        "phaseNum": "8",
+        "manualGuid": "NMOS",
+        "manualName1": "Nissan Marketing Operation Standard",
+        "manualName2": "Mercadotecnia",
+        "mnlGuid": "mct"
+      },
+      {
+        "LK_manualId": "68",
+        "phaseNum": "8",
+        "manualGuid": "B&P-DOS",
+        "manualName1": "Body & Paint - Dealer Operation Standard",
+        "manualName2": "Hojalatería y Pintura",
+        "mnlGuid": "hjl"
+      },
+      {
+        "LK_manualId": "69",
+        "phaseNum": "8",
+        "manualGuid": "NAOS",
+        "manualName1": "Nissan Administrative Operation Standard",
+        "manualName2": "Administración",
+        "mnlGuid": "adm"
+      },
+      {
+        "LK_manualId": "70",
+        "phaseNum": "8",
+        "manualGuid": "NSRC",
+        "manualName1": "Nissan Standard Retail Concept",
+        "manualName2": "Retail",
+        "mnlGuid": "rtl"
+      },
+      {
+        "LK_manualId": "71",
+        "phaseNum": "9",
+        "manualGuid": "NSSW",
+        "manualName1": "Nissan Sales & Service Way",
+        "manualName2": "Ventas",
+        "mnlGuid": "vnt"
+      },
+      {
+        "LK_manualId": "72",
+        "phaseNum": "9",
+        "manualGuid": "NSOS",
+        "manualName1": "Nissan Service Operation Standard",
+        "manualName2": "Servicio",
+        "mnlGuid": "srv"
+      },
+      {
+        "LK_manualId": "73",
+        "phaseNum": "9",
+        "manualGuid": "AS-DOS",
+        "manualName1": "After Sales - Dealer Operation Standard",
+        "manualName2": "Refacciones",
+        "mnlGuid": "ref"
+      },
+      {
+        "LK_manualId": "74",
+        "phaseNum": "9",
+        "manualGuid": "NSGP",
+        "manualName1": "Nissan Standard Green Program",
+        "manualName2": "Green Program",
+        "mnlGuid": "gpr"
+      },
+      {
+        "LK_manualId": "75",
+        "phaseNum": "9",
+        "manualGuid": "NREDI",
+        "manualName1": "Nissan Retail Environmental Design Initiatives",
+        "manualName2": "Identidad Visual",
+        "mnlGuid": "ivs"
+      },
+      {
+        "LK_manualId": "76",
+        "phaseNum": "9",
+        "manualGuid": "NMOS",
+        "manualName1": "Nissan Marketing Operation Standard",
+        "manualName2": "Mercadotecnia",
+        "mnlGuid": "mct"
+      },
+      {
+        "LK_manualId": "77",
+        "phaseNum": "9",
+        "manualGuid": "B&P-DOS",
+        "manualName1": "Body & Paint - Dealer Operation Standard",
+        "manualName2": "Hojalatería y Pintura",
+        "mnlGuid": "hjl"
+      },
+      {
+        "LK_manualId": "78",
+        "phaseNum": "9",
+        "manualGuid": "NAOS",
+        "manualName1": "Nissan Administrative Operation Standard",
+        "manualName2": "Administración",
+        "mnlGuid": "adm"
+      },
+      {
+        "LK_manualId": "79",
+        "phaseNum": "9",
+        "manualGuid": "NSRC",
+        "manualName1": "Nissan Standard Retail Concept",
+        "manualName2": "Retail",
+        "mnlGuid": "rtl"
+      },
+      {
+        "LK_manualId": "80",
+        "phaseNum": "10",
+        "manualGuid": "NSSW",
+        "manualName1": "Nissan Sales & Service Way",
+        "manualName2": "Ventas",
+        "mnlGuid": "vnt"
+      },
+      {
+        "LK_manualId": "81",
+        "phaseNum": "10",
+        "manualGuid": "NSOS",
+        "manualName1": "Nissan Service Operation Standard",
+        "manualName2": "Servicio",
+        "mnlGuid": "srv"
+      },
+      {
+        "LK_manualId": "82",
+        "phaseNum": "10",
+        "manualGuid": "AS-DOS",
+        "manualName1": "After Sales - Dealer Operation Standard",
+        "manualName2": "Refacciones",
+        "mnlGuid": "ref"
+      },
+      {
+        "LK_manualId": "83",
+        "phaseNum": "10",
+        "manualGuid": "NSGP",
+        "manualName1": "Nissan Standard Green Program",
+        "manualName2": "Green Program",
+        "mnlGuid": "gpr"
+      },
+      {
+        "LK_manualId": "84",
+        "phaseNum": "10",
+        "manualGuid": "NREDI",
+        "manualName1": "Nissan Retail Environmental Design Initiatives",
+        "manualName2": "Identidad Visual",
+        "mnlGuid": "ivs"
+      },
+      {
+        "LK_manualId": "85",
+        "phaseNum": "10",
+        "manualGuid": "NMOS",
+        "manualName1": "Nissan Marketing Operation Standard",
+        "manualName2": "Mercadotecnia",
+        "mnlGuid": "mct"
+      },
+      {
+        "LK_manualId": "86",
+        "phaseNum": "10",
+        "manualGuid": "B&P-DOS",
+        "manualName1": "Body & Paint - Dealer Operation Standard",
+        "manualName2": "Hojalatería y Pintura",
+        "mnlGuid": "hjl"
+      },
+      {
+        "LK_manualId": "87",
+        "phaseNum": "10",
+        "manualGuid": "NAOS",
+        "manualName1": "Nissan Administrative Operation Standard",
+        "manualName2": "Administración",
+        "mnlGuid": "adm"
+      },
+      {
+        "LK_manualId": "88",
+        "phaseNum": "10",
+        "manualGuid": "NSRC",
+        "manualName1": "Nissan Standard Retail Concept",
+        "manualName2": "Retail",
+        "mnlGuid": "rtl"
+      },
+                    {
+                    "LK_manualId": "89",
+                    "phaseNum": "11",
+                    "manualGuid": "NSSW",
+                    "manualName1": "Nissan Sales & Service Way",
+                    "manualName2": "Ventas",
+                    "mnlGuid": "vnt"
+                    },
+                    {
+                    "LK_manualId": "90",
+                    "phaseNum": "11",
+                    "manualGuid": "NSOS",
+                    "manualName1": "Nissan Service Operation Standard",
+                    "manualName2": "Servicio",
+                    "mnlGuid": "srv"
+                    },
+                    {
+                    "LK_manualId": "91",
+                    "phaseNum": "11",
+                    "manualGuid": "AS-DOS",
+                    "manualName1": "After Sales - Dealer Operation Standard",
+                    "manualName2": "Refacciones",
+                    "mnlGuid": "ref"
+                    },
+                    {
+                    "LK_manualId": "92",
+                    "phaseNum": "11",
+                    "manualGuid": "NSGP",
+                    "manualName1": "Nissan Standard Green Program",
+                    "manualName2": "Green Program",
+                    "mnlGuid": "gpr"
+                    },
+                    {
+                    "LK_manualId": "93",
+                    "phaseNum": "11",
+                    "manualGuid": "NREDI",
+                    "manualName1": "Nissan Retail Environmental Design Initiatives",
+                    "manualName2": "Identidad Visual",
+                    "mnlGuid": "ivs"
+                    },
+                    {
+                    "LK_manualId": "94",
+                    "phaseNum": "11",
+                    "manualGuid": "NMOS",
+                    "manualName1": "Nissan Marketing Operation Standard",
+                    "manualName2": "Mercadotecnia",
+                    "mnlGuid": "mct"
+                    },
+                    {
+                    "LK_manualId": "95",
+                    "phaseNum": "11",
+                    "manualGuid": "B&P-DOS",
+                    "manualName1": "Body & Paint - Dealer Operation Standard",
+                    "manualName2": "Hojalatería y Pintura",
+                    "mnlGuid": "hjl"
+                    },
+                    {
+                    "LK_manualId": "96",
+                    "phaseNum": "11",
+                    "manualGuid": "NAOS",
+                    "manualName1": "Nissan Administrative Operation Standard",
+                    "manualName2": "Administración",
+                    "mnlGuid": "adm"
+                    },
+                    {
+                    "LK_manualId": "97",
+                    "phaseNum": "11",
+                    "manualGuid": "NSRC",
+                    "manualName1": "Nissan Standard Retail Concept",
+                    "manualName2": "Retail",
+                    "mnlGuid": "rtl"
+                    },
+                    {
+                    "LK_manualId": "98",
+                    "phaseNum": "12",
+                    "manualGuid": "NSSW",
+                    "manualName1": "Nissan Sales & Service Way",
+                    "manualName2": "Ventas",
+                    "mnlGuid": "vnt"
+                    },
+                    {
+                    "LK_manualId": "99",
+                    "phaseNum": "12",
+                    "manualGuid": "NSOS",
+                    "manualName1": "Nissan Service Operation Standard",
+                    "manualName2": "Servicio",
+                    "mnlGuid": "srv"
+                    },
+                    {
+                    "LK_manualId": "100",
+                    "phaseNum": "12",
+                    "manualGuid": "AS-DOS",
+                    "manualName1": "After Sales - Dealer Operation Standard",
+                    "manualName2": "Refacciones",
+                    "mnlGuid": "ref"
+                    },
+                    {
+                    "LK_manualId": "101",
+                    "phaseNum": "12",
+                    "manualGuid": "NSGP",
+                    "manualName1": "Nissan Standard Green Program",
+                    "manualName2": "Green Program",
+                    "mnlGuid": "gpr"
+                    },
+                    {
+                    "LK_manualId": "102",
+                    "phaseNum": "12",
+                    "manualGuid": "NREDI",
+                    "manualName1": "Nissan Retail Environmental Design Initiatives",
+                    "manualName2": "Identidad Visual",
+                    "mnlGuid": "ivs"
+                    },
+                    {
+                    "LK_manualId": "103",
+                    "phaseNum": "12",
+                    "manualGuid": "NMOS",
+                    "manualName1": "Nissan Marketing Operation Standard",
+                    "manualName2": "Mercadotecnia",
+                    "mnlGuid": "mct"
+                    },
+                    {
+                    "LK_manualId": "104",
+                    "phaseNum": "12",
+                    "manualGuid": "B&P-DOS",
+                    "manualName1": "Body & Paint - Dealer Operation Standard",
+                    "manualName2": "HojalaterÌa y Pintura",
+                    "mnlGuid": "hjl"
+                    },
+                    {
+                    "LK_manualId": "105",
+                    "phaseNum": "12",
+                    "manualGuid": "NAOS",
+                    "manualName1": "Nissan Administrative Operation Standard",
+                    "manualName2": "AdministraciÛn",
+                    "mnlGuid": "adm"
+                    },
+                    {
+                    "LK_manualId": "106",
+                    "phaseNum": "12",
+                    "manualGuid": "NSRC",
+                    "manualName1": "Nissan Standard Retail Concept",
+                    "manualName2": "Retail",
+                    "mnlGuid": "rtl"
+                    }
+
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "dataroot": {
+    "@xmlns:od": "urn:schemas-microsoft-com:officedata",
+    "@generated": "2012-08-27T12:45:30",
+    "seec_state":[
+          {
+            "@diffgr:id": "Table1",
+            "@msdata:rowOrder": "0",
+            "LK_stateId": "1",
+            "stateName": "Aguascalientes"
+          },
+          {
+            "@diffgr:id": "Table2",
+            "@msdata:rowOrder": "1",
+            "LK_stateId": "2",
+            "stateName": "Baja California Norte"
+          },
+          {
+            "@diffgr:id": "Table3",
+            "@msdata:rowOrder": "2",
+            "LK_stateId": "3",
+            "stateName": "Baja California Sur"
+          },
+          {
+            "@diffgr:id": "Table4",
+            "@msdata:rowOrder": "3",
+            "LK_stateId": "4",
+            "stateName": "Campeche"
+          },
+          {
+            "@diffgr:id": "Table5",
+            "@msdata:rowOrder": "4",
+            "LK_stateId": "5",
+            "stateName": "Chiapas"
+          },
+          {
+            "@diffgr:id": "Table6",
+            "@msdata:rowOrder": "5",
+            "LK_stateId": "6",
+            "stateName": "Chihuahua"
+          },
+          {
+            "@diffgr:id": "Table7",
+            "@msdata:rowOrder": "6",
+            "LK_stateId": "7",
+            "stateName": "Coahuila"
+          },
+          {
+            "@diffgr:id": "Table8",
+            "@msdata:rowOrder": "7",
+            "LK_stateId": "8",
+            "stateName": "Colima"
+          },
+          {
+            "@diffgr:id": "Table9",
+            "@msdata:rowOrder": "8",
+            "LK_stateId": "9",
+            "stateName": "Distrito Federal"
+          },
+          {
+            "@diffgr:id": "Table10",
+            "@msdata:rowOrder": "9",
+            "LK_stateId": "10",
+            "stateName": "Durango"
+          },
+          {
+            "@diffgr:id": "Table11",
+            "@msdata:rowOrder": "10",
+            "LK_stateId": "11",
+            "stateName": "Estado de México"
+          },
+          {
+            "@diffgr:id": "Table12",
+            "@msdata:rowOrder": "11",
+            "LK_stateId": "12",
+            "stateName": "Guanajuato"
+          },
+          {
+            "@diffgr:id": "Table13",
+            "@msdata:rowOrder": "12",
+            "LK_stateId": "13",
+            "stateName": "Guerrero"
+          },
+          {
+            "@diffgr:id": "Table14",
+            "@msdata:rowOrder": "13",
+            "LK_stateId": "14",
+            "stateName": "Hidalgo"
+          },
+          {
+            "@diffgr:id": "Table15",
+            "@msdata:rowOrder": "14",
+            "LK_stateId": "15",
+            "stateName": "Jalisco"
+          },
+          {
+            "@diffgr:id": "Table16",
+            "@msdata:rowOrder": "15",
+            "LK_stateId": "16",
+            "stateName": "Michoacan"
+          },
+          {
+            "@diffgr:id": "Table17",
+            "@msdata:rowOrder": "16",
+            "LK_stateId": "17",
+            "stateName": "Morelos"
+          },
+          {
+            "@diffgr:id": "Table18",
+            "@msdata:rowOrder": "17",
+            "LK_stateId": "18",
+            "stateName": "Nayarit"
+          },
+          {
+            "@diffgr:id": "Table19",
+            "@msdata:rowOrder": "18",
+            "LK_stateId": "19",
+            "stateName": "Nuevo Leon"
+          },
+          {
+            "@diffgr:id": "Table20",
+            "@msdata:rowOrder": "19",
+            "LK_stateId": "20",
+            "stateName": "Oaxaca"
+          },
+          {
+            "@diffgr:id": "Table21",
+            "@msdata:rowOrder": "20",
+            "LK_stateId": "21",
+            "stateName": "Puebla"
+          },
+          {
+            "@diffgr:id": "Table22",
+            "@msdata:rowOrder": "21",
+            "LK_stateId": "22",
+            "stateName": "Queretaro"
+          },
+          {
+            "@diffgr:id": "Table23",
+            "@msdata:rowOrder": "22",
+            "LK_stateId": "23",
+            "stateName": "Quintana Roo"
+          },
+          {
+            "@diffgr:id": "Table24",
+            "@msdata:rowOrder": "23",
+            "LK_stateId": "24",
+            "stateName": "San Luis Potosi"
+          },
+          {
+            "@diffgr:id": "Table25",
+            "@msdata:rowOrder": "24",
+            "LK_stateId": "25",
+            "stateName": "Sinaloa"
+          },
+          {
+            "@diffgr:id": "Table26",
+            "@msdata:rowOrder": "25",
+            "LK_stateId": "26",
+            "stateName": "Sonora"
+          },
+          {
+            "@diffgr:id": "Table27",
+            "@msdata:rowOrder": "26",
+            "LK_stateId": "27",
+            "stateName": "Tabasco"
+          },
+          {
+            "@diffgr:id": "Table28",
+            "@msdata:rowOrder": "27",
+            "LK_stateId": "28",
+            "stateName": "Tamaulipas"
+          },
+          {
+            "@diffgr:id": "Table29",
+            "@msdata:rowOrder": "28",
+            "LK_stateId": "29",
+            "stateName": "Tlaxcala"
+          },
+          {
+            "@diffgr:id": "Table30",
+            "@msdata:rowOrder": "29",
+            "LK_stateId": "30",
+            "stateName": "Veracruz"
+          },
+          {
+            "@diffgr:id": "Table31",
+            "@msdata:rowOrder": "30",
+            "LK_stateId": "31",
+            "stateName": "Yucatan"
+          },
+          {
+            "@diffgr:id": "Table32",
+            "@msdata:rowOrder": "31",
+            "LK_stateId": "32",
+            "stateName": "Zacatecas"
+          }
+        ]
+      }
+    }

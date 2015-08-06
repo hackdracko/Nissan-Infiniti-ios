@@ -1,0 +1,32 @@
+{
+  "dataroot": {
+    "@xmlns:od": "urn:schemas-microsoft-com:officedata",
+    "@generated": "2012-08-27T12:45:30",
+    "seec_state":[
+          {
+            "@diffgr:id": "Table1",
+            "@msdata:rowOrder": "0",
+            "LK_stateId": "1",
+            "stateName": "Estado de México"
+          },
+          {
+            "@diffgr:id": "Table2",
+            "@msdata:rowOrder": "1",
+            "LK_stateId": "2",
+            "stateName": "Distrito Federal"
+          },
+          {
+            "@diffgr:id": "Table3",
+            "@msdata:rowOrder": "2",
+            "LK_stateId": "3",
+            "stateName": "Nuevo León"
+          },
+          {
+            "@diffgr:id": "Table4",
+            "@msdata:rowOrder": "3",
+            "LK_stateId": "4",
+            "stateName": "Jalisco"
+           }
+        ]
+      }
+    }

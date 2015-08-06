@@ -1,0 +1,32 @@
+{
+  "dataroot": {
+    "@xmlns:od": "urn:schemas-microsoft-com:officedata",
+    "@generated": "2012-08-27T12:45:38",
+    "seec_zone": [
+          {
+            "@diffgr:id": "Table1",
+            "@msdata:rowOrder": "0",
+            "LK_zoneId": "1",
+            "zoneName": "Sur"
+          },
+          {
+            "@diffgr:id": "Table2",
+            "@msdata:rowOrder": "1",
+            "LK_zoneId": "2",
+            "zoneName": "Centro"
+          },
+          {
+            "@diffgr:id": "Table3",
+            "@msdata:rowOrder": "2",
+            "LK_zoneId": "3",
+            "zoneName": "Metropolitana"
+          },
+          {
+            "@diffgr:id": "Table4",
+            "@msdata:rowOrder": "3",
+            "LK_zoneId": "4",
+            "zoneName": "Norte"
+          }
+        ]
+      }
+    }

@@ -1,0 +1,369 @@
+
+
+{
+    
+    "schema": {
+        
+        "@id": "NewDataSet",
+        
+        "element": {
+            
+            "@name": "NewDataSet",
+            
+            "@IsDataSet": "true",
+            
+            "@UseCurrentLocale": "true",
+            
+            "complexType": {
+                
+                "choice": {
+                    
+                    "@minOccurs": "0",
+                    
+                    "@maxOccurs": "unbounded",
+                    
+                    "element": {
+                        
+                        "@name": "seec_user",
+                        
+                        "complexType": {
+                            
+                            "sequence": {
+                                
+                                "element": [
+                                            
+                                            {
+                                            
+                                            "@name": "LK_logInId",
+                                            
+                                            "@minOccurs": "0"
+                                            
+                                            },
+                                            
+                                            {
+                                            
+                                            "@name": "FK_userId",
+                                            
+                                            "@minOccurs": "0"
+                                            
+                                            },
+                                            
+                                            {
+                                            
+                                            "@name": "FK_roleId",
+                                            
+                                            "@minOccurs": "0"
+                                            
+                                            },
+                                            
+                                            {
+                                            
+                                            "@name": "guid",
+                                            
+                                            "@minOccurs": "0"
+                                            
+                                            },
+                                            
+                                            {
+                                            
+                                            "@name": "guidPassword",
+                                            
+                                            "@minOccurs": "0"
+                                            
+                                            },
+                                            
+                                            {
+                                            
+                                            "@name": "stFlag",
+                                            
+                                            "@minOccurs": "0"
+                                            
+                                            }
+                                            
+                                            ]
+                                
+                            }
+                            
+                        }
+                        
+                    }
+                    
+                }
+                
+            }
+            
+        }
+        
+    },
+    
+    "diffgram": {
+        
+        "NewDataSet": [
+                       
+                       {
+		               "id": "seec_user0",
+		               "rowOrder": "0",
+		               "LK_logInId": "1",
+		               "FK_userId": "1",
+		               "FK_roleId": "1",
+		               "guid": "spaniagua ",
+		               "guidPassword": "2013user",
+		               "stFlag": "0"
+		             },
+		             {
+		               "id": "seec_user1",
+		               "rowOrder": "1",
+		               "LK_logInId": "32",
+		               "FK_userId": "32",
+		               "FK_roleId": "2",
+		               "guid": "jfernandez050",
+		               "guidPassword": "Jorge2013",
+		               "stFlag": "0"
+		             },
+		             {
+		             	"id": "seec_user2",
+		               "rowOrder": "2",
+		               "LK_logInId": "60",
+		               "FK_userId": "60",
+		               "FK_roleId": "2",
+		               "guid": "monypalacios",
+		               "guidPassword": "Infinitum",
+		               "stFlag": "0"
+		             },
+		             {
+		             	"id": "seec_user3",
+		               "rowOrder": "3",
+		               "LK_logInId": "62",
+		               "FK_userId": "62",
+		               "FK_roleId": "2",
+		               "guid": "g.pastrana002",
+		               "guidPassword": "2013user",
+		               "stFlag": "0"
+		             },
+		             {
+		             	"id": "seec_user4",
+		               "rowOrder": "4",
+		               "LK_logInId": "63",
+		               "FK_userId": "63",
+		               "FK_roleId": "2",
+		               "guid": "acorreaoch001",
+		               "guidPassword": "Alito2013",
+		               "stFlag": "0"
+		             },
+		             {
+		             	"id": "seec_user5",
+		               "rowOrder": "5",
+		               "LK_logInId": "67",
+		               "FK_userId": "67",
+		               "FK_roleId": "3",
+		               "guid": "aramirez005",
+		               "guidPassword": "aramirez",
+		               "stFlag": "0"
+		             },
+		             {
+		             	"id": "seec_user6",
+		               "rowOrder": "6",
+		               "LK_logInId": "70",
+		               "FK_userId": "70",
+		               "FK_roleId": "2",
+		               "guid": "rceballos",
+		               "guidPassword": "2013user",
+		               "stFlag": "0"
+		             },
+		             {
+		             	"id": "seec_user7",
+		               "rowOrder": "7",
+		               "LK_logInId": "231",
+		               "FK_userId": "231",
+		               "FK_roleId": "2",
+		               "guid": "aacero",
+		               "guidPassword": "2013user",
+		               "stFlag": "0"
+		             },
+		             {
+		             	"id": "seec_user8",
+		               "rowOrder": "8",
+		               "LK_logInId": "240",
+		               "FK_userId": "240",
+		               "FK_roleId": "2",
+		               "guid": "Jmelendez001",
+		               "guidPassword": "Jorgeeduardo89",
+		               "stFlag": "0"
+		             },
+		             {
+		             	"id": "seec_user9",
+		               "rowOrder": "9",
+		               "LK_logInId": "263",
+		               "FK_userId": "266",
+		               "FK_roleId": "2",
+		               "guid": "gsanchez001",
+		               "guidPassword": "Gina2013",
+		               "stFlag": "0"
+		             },
+		             {
+		             	"id": "seec_user10",
+		               "rowOrder": "10",
+		               "LK_logInId": "266",
+		               "FK_userId": "269",
+		               "FK_roleId": "2",
+		               "guid": "gvilla001",
+		               "guidPassword": "Valentina2010",
+		               "stFlag": "0"
+		             },
+		             {
+		             	"id": "seec_user11",
+		               "rowOrder": "11",
+		               "LK_logInId": "270",
+		               "FK_userId": "273",
+		               "FK_roleId": "2",
+		               "guid": "egonzalez001",
+		               "guidPassword": "2013user",
+		               "stFlag": "0"
+		             },
+		             {
+		             	"id": "seec_user12",
+		               "rowOrder": "12",
+		               "LK_logInId": "275",
+		               "FK_userId": "278",
+		               "FK_roleId": "2",
+		               "guid": "mgomez001",
+		               "guidPassword": "2013user",
+		               "stFlag": "0"
+		             },
+		             {
+		             	"id": "seec_user13",
+		               "rowOrder": "13",
+		               "LK_logInId": "1744",
+		               "FK_userId": "1748",
+		               "FK_roleId": "2",
+		               "guid": "avazquez034",
+		               "guidPassword": "Anakarina05",
+		               "stFlag": "0"
+                       },
+                       {
+                       "id": "seec_user14",
+		               "rowOrder": "14",
+		               "LK_logInId": "1745",
+		               "FK_userId": "1749",
+		               "FK_roleId": "2",
+		               "guid": "ios",
+		               "guidPassword": "ios",
+		               "stFlag": "0"
+                       },
+                       {
+                       "id": "seec_user15",
+		               "rowOrder": "15",
+		               "LK_logInId": "2533",
+		               "FK_userId": "2537",
+		               "FK_roleId": "2",
+		               "guid": "aiturbe001",
+		               "guidPassword": "Distribuidor2013",
+		               "stFlag": "0"
+                       },
+                       {
+                       "id": "seec_user16",
+		               "rowOrder": "16",
+		               "LK_logInId": "2532",
+		               "FK_userId": "2536",
+		               "FK_roleId": "2",
+		               "guid": "Ljsuarez001",
+		               "guidPassword": "Javier86",
+		               "stFlag": "0"
+                       },
+                       {
+                       "id": "seec_user17",
+		               "rowOrder": "17",
+		               "LK_logInId": "2534",
+		               "FK_userId": "2538",
+		               "FK_roleId": "2",
+		               "guid": "halvarezr001",
+		               "guidPassword": "Hector97130251",
+		               "stFlag": "0"
+                       },
+                       {
+                       "id": "seec_user18",
+		               "rowOrder": "18",
+		               "LK_logInId": "2536",
+		               "FK_userId": "2540",
+		               "FK_roleId": "2",
+		               "guid": "marana001",
+		               "guidPassword": "MJager2731",
+		               "stFlag": "0"
+                       },
+                       {
+                       "id": "seec_user19",
+		               "rowOrder": "19",
+		               "LK_logInId": "2169",
+		               "FK_userId": "2173",
+		               "FK_roleId": "2",
+		               "guid": "oramirez017",
+		               "guidPassword": "Omartemo90",
+		               "stFlag": "0"
+                       },
+                       {
+                       "id": "seec_user20",
+		               "rowOrder": "20",
+		               "LK_logInId": "1743",
+		               "FK_userId": "1747",
+		               "FK_roleId": "2",
+		               "guid": "rmora005",
+		               "guidPassword": "Alemania2013",
+		               "stFlag": "0"
+                       },
+                       {
+                       "id": "seec_user21",
+		               "rowOrder": "21",
+		               "LK_logInId": "2447",
+		               "FK_userId": "2451",
+		               "FK_roleId": "2",
+		               "guid": "pgarcia",
+		               "guidPassword": "Patricia1303",
+		               "stFlag": "0"
+                       },
+                       {
+                       "id": "seec_user22",
+		               "rowOrder": "22",
+		               "LK_logInId": "1747",
+		               "FK_userId": "1751",
+		               "FK_roleId": "2",
+		               "guid": "agutierrez002",
+		               "guidPassword": "Distribuidor2013",
+		               "stFlag": "0"
+                       },
+                       {
+                       "id": "seec_user23",
+		               "rowOrder": "23",
+		               "LK_logInId": "1746",
+		               "FK_userId": "1750",
+		               "FK_roleId": "2",
+		               "guid": "DelacM2",
+		               "guidPassword": "Miguel",
+		               "stFlag": "0"
+                       },
+                       {
+                       "id": "seec_user24",
+		               "rowOrder": "24",
+		               "LK_logInId": "2782",
+		               "FK_userId": "2786",
+		               "FK_roleId": "2",
+		               "guid": "respinoza",
+		               "guidPassword": "Ruben2013",
+		               "stFlag": "0"
+                       },
+                       {
+                       "id": "seec_user25",
+		               "rowOrder": "25",
+		               "LK_logInId": "2783",
+		               "FK_userId": "2787",
+		               "FK_roleId": "2",
+		               "guid": "vramos",
+		               "guidPassword": "IvanRamos080",
+		               "stFlag": "0"
+                       }
+                       
+                       
+                       ]
+        
+    }
+    
+}

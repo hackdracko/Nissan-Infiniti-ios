@@ -1,0 +1,26 @@
+{
+  "dataroot": {
+    "@xmlns:od": "urn:schemas-microsoft-com:officedata",
+    "@generated": "2012-08-27T12:43:16",
+    "seec_branchType":[
+          {
+            "@diffgr:id": "Table1",
+            "@msdata:rowOrder": "0",
+            "LK_branchTypeId": "1",
+            "branchTypeDescription": "Matriz"
+          },
+          {
+            "@diffgr:id": "Table2",
+            "@msdata:rowOrder": "1",
+            "LK_branchTypeId": "2",
+            "branchTypeDescription": "Sucursal"
+          },
+          {
+            "@diffgr:id": "Table3",
+            "@msdata:rowOrder": "2",
+            "LK_branchTypeId": "3",
+            "branchTypeDescription": "Taller"
+          }
+        ]
+      }
+    }

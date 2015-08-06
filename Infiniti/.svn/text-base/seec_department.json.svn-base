@@ -1,0 +1,86 @@
+{
+    "dataroot": {
+        "@xmlns:od": "urn:schemas-microsoft-com:officedata",
+        "@generated": "2012-08-27T12:43:37",
+        "seec_department":[
+                           {
+                           "@diffgr:id": "Table1",
+                           "@msdata:rowOrder": "0",
+                           "LK_departmentId": "1",
+                           "departmentName": "Presidencia"
+                           },
+                           {
+                           "@diffgr:id": "Table2",
+                           "@msdata:rowOrder": "1",
+                           "LK_departmentId": "2",
+                           "departmentName": "Direccion"
+                           },
+                           {
+                           "@diffgr:id": "Table3",
+                           "@msdata:rowOrder": "2",
+                           "LK_departmentId": "3",
+                           "departmentName": "Gerente General"
+                           },
+                           {
+                           "@diffgr:id": "Table4",
+                           "@msdata:rowOrder": "3",
+                           "LK_departmentId": "4",
+                           "departmentName": "Gerente de Ventas"
+                           },
+                           {
+                           "@diffgr:id": "Table5",
+                           "@msdata:rowOrder": "4",
+                           "LK_departmentId": "5",
+                           "departmentName": "Gerente de Servicio"
+                           },
+                           {
+                           "@diffgr:id": "Table6",
+                           "@msdata:rowOrder": "5",
+                           "LK_departmentId": "6",
+                           "departmentName": "Gerente de Finanzas"
+                           },
+                           {
+                           "@diffgr:id": "Table7",
+                           "@msdata:rowOrder": "6",
+                           "LK_departmentId": "7",
+                           "departmentName": "Gerente de Mercadotecnia"
+                           },
+                           {
+                           "@diffgr:id": "Table8",
+                           "@msdata:rowOrder": "7",
+                           "LK_departmentId": "8",
+                           "departmentName": "Gerente de Refacciones"
+                           },
+                           {
+                           "@diffgr:id": "Table9",
+                           "@msdata:rowOrder": "8",
+                           "LK_departmentId": "9",
+                           "departmentName": "Gerente de Capacitación"
+                           },
+                           {
+                           "@diffgr:id": "Table10",
+                           "@msdata:rowOrder": "9",
+                           "LK_departmentId": "10",
+                           "departmentName": "APV"
+                           },
+                           {
+                           "@diffgr:id": "Table11",
+                           "@msdata:rowOrder": "10",
+                           "LK_departmentId": "11",
+                           "departmentName": "ADPC"
+                           },
+                           {
+                           "@diffgr:id": "Table12",
+                           "@msdata:rowOrder": "11",
+                           "LK_departmentId": "12",
+                           "departmentName": "EPCI"
+                           },
+                           {
+                           "@diffgr:id": "Table13,
+                           "@msdata:rowOrder": "12",
+                           "LK_departmentId": "13",
+                           "departmentName": "F&I"
+                           }
+                           ]
+    }
+}

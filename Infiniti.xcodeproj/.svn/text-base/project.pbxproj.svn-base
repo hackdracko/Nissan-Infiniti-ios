@@ -1,0 +1,1452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB78E17A17CD196400B8D963 /* iseec_state.json.back in Resources */ = {isa = PBXBuildFile; fileRef = DB78E17917CD196400B8D963 /* iseec_state.json.back */; };
+		DB78E17C17CD1B0200B8D963 /* iseec_city.json.back in Resources */ = {isa = PBXBuildFile; fileRef = DB78E17B17CD1B0200B8D963 /* iseec_city.json.back */; };
+		DB78E17E17CD230B00B8D963 /* seec_department.json.back in Resources */ = {isa = PBXBuildFile; fileRef = DB78E17D17CD230A00B8D963 /* seec_department.json.back */; };
+		DB78E18017CD23F800B8D963 /* seec_branchType.json.back in Resources */ = {isa = PBXBuildFile; fileRef = DB78E17F17CD23F700B8D963 /* seec_branchType.json.back */; };
+		DBAA0D0717CD70B00075A4EE /* seec_manual.json.back in Resources */ = {isa = PBXBuildFile; fileRef = DBAA0D0617CD70B00075A4EE /* seec_manual.json.back */; };
+		DBCE492317D161A5002A6896 /* boton.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCE492217D161A5002A6896 /* boton.png */; };
+		DBCE492717D1625B002A6896 /* reporte1.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCE492617D1625B002A6896 /* reporte1.png */; };
+		DBCE492917D1627F002A6896 /* reporte3.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCE492817D1627F002A6896 /* reporte3.png */; };
+		DBCE492C17D162B7002A6896 /* logos generales.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCE492A17D162B7002A6896 /* logos generales.png */; };
+		DBCE492D17D162B7002A6896 /* seec_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCE492B17D162B7002A6896 /* seec_logo.png */; };
+		DBCE493017D162E7002A6896 /* background_login.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCE492E17D162E7002A6896 /* background_login.png */; };
+		DBCE493117D162E7002A6896 /* nissan.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCE492F17D162E7002A6896 /* nissan.png */; };
+		DBCE493317D16349002A6896 /* GraphicsReport.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCE493217D16349002A6896 /* GraphicsReport.png */; };
+		DBD8CCEB17D157D500D7772E /* icon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD8CCEA17D157D500D7772E /* icon2x.png */; };
+		EC3DAF9417BD400B00E33922 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3DAF9317BD400B00E33922 /* UIKit.framework */; };
+		EC3DAF9617BD400B00E33922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3DAF9517BD400B00E33922 /* Foundation.framework */; };
+		EC3DAF9817BD400B00E33922 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3DAF9717BD400B00E33922 /* CoreGraphics.framework */; };
+		EC3DAF9E17BD400B00E33922 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAF9C17BD400B00E33922 /* InfoPlist.strings */; };
+		EC3DAFA017BD400B00E33922 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DAF9F17BD400B00E33922 /* main.m */; };
+		EC3DAFA617BD400B00E33922 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFA517BD400B00E33922 /* Default.png */; };
+		EC3DAFA817BD400B00E33922 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFA717BD400B00E33922 /* Default@2x.png */; };
+		EC3DAFAA17BD400B00E33922 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFA917BD400B00E33922 /* Default-568h@2x.png */; };
+		EC3DAFB317BD410600E33922 /* SEECServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DAFB117BD410600E33922 /* SEECServerRequest.m */; };
+		EC3DAFB817BD412400E33922 /* SEECAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DAFB617BD412400E33922 /* SEECAppDelegate.m */; };
+		EC3DAFCF17BD419600E33922 /* seec_phaseCatalog.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFC117BD419600E33922 /* seec_phaseCatalog.json */; };
+		EC3DAFD017BD419600E33922 /* seec_manual.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFC217BD419600E33922 /* seec_manual.json */; };
+		EC3DAFD117BD419600E33922 /* seec_standard.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFC317BD419600E33922 /* seec_standard.json */; };
+		EC3DAFD217BD419600E33922 /* seec_activity.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFC417BD419600E33922 /* seec_activity.json */; };
+		EC3DAFD317BD419600E33922 /* seec_login.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFC517BD419600E33922 /* seec_login.json */; };
+		EC3DAFD417BD419600E33922 /* seec_user.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFC617BD419600E33922 /* seec_user.json */; };
+		EC3DAFD517BD419600E33922 /* iseec_state.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFC717BD419600E33922 /* iseec_state.json */; };
+		EC3DAFD617BD419600E33922 /* seec_zone.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFC817BD419600E33922 /* seec_zone.json */; };
+		EC3DAFD717BD419600E33922 /* seec_branch.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFC917BD419600E33922 /* seec_branch.json */; };
+		EC3DAFD817BD419600E33922 /* seec_branchType.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFCA17BD419600E33922 /* seec_branchType.json */; };
+		EC3DAFD917BD419600E33922 /* iseec_city.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFCB17BD419600E33922 /* iseec_city.json */; };
+		EC3DAFDA17BD419600E33922 /* seec_department.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFCC17BD419600E33922 /* seec_department.json */; };
+		EC3DAFDB17BD419600E33922 /* seec_owner.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFCD17BD419600E33922 /* seec_owner.json */; };
+		EC3DAFDC17BD419600E33922 /* seec_role.json in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFCE17BD419600E33922 /* seec_role.json */; };
+		EC3DB03817BD41B300E33922 /* ipad_web_on.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFDE17BD41B300E33922 /* ipad_web_on.png */; };
+		EC3DB03917BD41B300E33922 /* web-ipad_on.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFDF17BD41B300E33922 /* web-ipad_on.png */; };
+		EC3DB03C17BD41B300E33922 /* camera4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFE217BD41B300E33922 /* camera4.png */; };
+		EC3DB03D17BD41B300E33922 /* sectionBg.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFE317BD41B300E33922 /* sectionBg.png */; };
+		EC3DB03E17BD41B300E33922 /* disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFE417BD41B300E33922 /* disclosure.png */; };
+		EC3DB03F17BD41B300E33922 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFE517BD41B300E33922 /* bar.png */; };
+		EC3DB04017BD41B300E33922 /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFE617BD41B300E33922 /* selected.png */; };
+		EC3DB04117BD41B300E33922 /* silver_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFE717BD41B300E33922 /* silver_selected.png */; };
+		EC3DB04217BD41B300E33922 /* shrink.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFE817BD41B300E33922 /* shrink.png */; };
+		EC3DB04317BD41B300E33922 /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFE917BD41B300E33922 /* trash.png */; };
+		EC3DB04417BD41B300E33922 /* clip.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFEA17BD41B300E33922 /* clip.png */; };
+		EC3DB04517BD41B300E33922 /* Trash1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFEB17BD41B300E33922 /* Trash1.png */; };
+		EC3DB04617BD41B300E33922 /* ExamplePhoto_0.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFEC17BD41B300E33922 /* ExamplePhoto_0.JPG */; };
+		EC3DB04717BD41B300E33922 /* ExamplePhoto_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFED17BD41B300E33922 /* ExamplePhoto_1.JPG */; };
+		EC3DB04817BD41B300E33922 /* ExamplePhoto_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFEE17BD41B300E33922 /* ExamplePhoto_2.JPG */; };
+		EC3DB04917BD41B300E33922 /* ExamplePhoto_3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFEF17BD41B300E33922 /* ExamplePhoto_3.JPG */; };
+		EC3DB04A17BD41B300E33922 /* ExamplePhoto_4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFF017BD41B300E33922 /* ExamplePhoto_4.JPG */; };
+		EC3DB04B17BD41B300E33922 /* ExamplePhoto_5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFF117BD41B300E33922 /* ExamplePhoto_5.JPG */; };
+		EC3DB04C17BD41B300E33922 /* applied.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFF217BD41B300E33922 /* applied.png */; };
+		EC3DB04D17BD41B300E33922 /* noEvaluation.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFF317BD41B300E33922 /* noEvaluation.png */; };
+		EC3DB04E17BD41B300E33922 /* noReached.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFF417BD41B300E33922 /* noReached.png */; };
+		EC3DB04F17BD41B300E33922 /* notApplied.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFF517BD41B300E33922 /* notApplied.png */; };
+		EC3DB05017BD41B300E33922 /* gold_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFF617BD41B300E33922 /* gold_selected.png */; };
+		EC3DB05117BD41B300E33922 /* textBanner_seec.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFF717BD41B300E33922 /* textBanner_seec.png */; };
+		EC3DB05217BD41B300E33922 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFF817BD41B300E33922 /* green.png */; };
+		EC3DB05317BD41B300E33922 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFF917BD41B300E33922 /* red.png */; };
+		EC3DB05417BD41B300E33922 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFFA17BD41B300E33922 /* yellow.png */; };
+		EC3DB05617BD41B300E33922 /* BACKGRUND_GENERIC.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFFC17BD41B300E33922 /* BACKGRUND_GENERIC.png */; };
+		EC3DB05717BD41B300E33922 /* table_eight_items.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFFD17BD41B300E33922 /* table_eight_items.png */; };
+		EC3DB05817BD41B300E33922 /* BUTTON_EXIT_PUSH.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFFE17BD41B300E33922 /* BUTTON_EXIT_PUSH.png */; };
+		EC3DB05917BD41B300E33922 /* BUTTON_EXIT.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DAFFF17BD41B300E33922 /* BUTTON_EXIT.png */; };
+		EC3DB05A17BD41B300E33922 /* table_seven_items.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00017BD41B300E33922 /* table_seven_items.png */; };
+		EC3DB05B17BD41B300E33922 /* boton logout-push.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00117BD41B300E33922 /* boton logout-push.png */; };
+		EC3DB05C17BD41B300E33922 /* boton logout.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00217BD41B300E33922 /* boton logout.png */; };
+		EC3DB05D17BD41B300E33922 /* arbolmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00317BD41B300E33922 /* arbolmenu.png */; };
+		EC3DB05E17BD41B300E33922 /* actualizaciones_over.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00417BD41B300E33922 /* actualizaciones_over.png */; };
+		EC3DB05F17BD41B300E33922 /* actualizaciones.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00517BD41B300E33922 /* actualizaciones.png */; };
+		EC3DB06017BD41B300E33922 /* table_three_items.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00617BD41B300E33922 /* table_three_items.png */; };
+		EC3DB06117BD41B300E33922 /* dato.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00717BD41B300E33922 /* dato.png */; };
+		EC3DB06217BD41B300E33922 /* certificado oro.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00817BD41B300E33922 /* certificado oro.png */; };
+		EC3DB06317BD41B300E33922 /* certificado plata.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00917BD41B300E33922 /* certificado plata.png */; };
+		EC3DB06417BD41B300E33922 /* actualizar_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00A17BD41B300E33922 /* actualizar_bar.png */; };
+		EC3DB06517BD41B300E33922 /* addfile.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00B17BD41B300E33922 /* addfile.png */; };
+		EC3DB06617BD41B300E33922 /* addfile_push.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00C17BD41B300E33922 /* addfile_push.png */; };
+		EC3DB06717BD41B300E33922 /* auditoria_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00D17BD41B300E33922 /* auditoria_bar.png */; };
+		EC3DB06817BD41B300E33922 /* auditoria_over.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00E17BD41B300E33922 /* auditoria_over.png */; };
+		EC3DB06917BD41B300E33922 /* auditoria.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB00F17BD41B300E33922 /* auditoria.png */; };
+		EC3DB06A17BD41B300E33922 /* ayuda_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01017BD41B300E33922 /* ayuda_bar.png */; };
+		EC3DB06B17BD41B300E33922 /* ayuda_over.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01117BD41B300E33922 /* ayuda_over.png */; };
+		EC3DB06C17BD41B300E33922 /* ayuda.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01217BD41B300E33922 /* ayuda.png */; };
+		EC3DB06D17BD41B300E33922 /* background_general.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01317BD41B300E33922 /* background_general.png */; };
+		EC3DB06F17BD41B300E33922 /* board_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01517BD41B300E33922 /* board_1.png */; };
+		EC3DB07017BD41B300E33922 /* template.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01617BD41B300E33922 /* template.png */; };
+		EC3DB07117BD41B300E33922 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01717BD41B300E33922 /* board.png */; };
+		EC3DB07317BD41B300E33922 /* button_generic_push.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01917BD41B300E33922 /* button_generic_push.png */; };
+		EC3DB07417BD41B300E33922 /* button_generic.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01A17BD41B300E33922 /* button_generic.png */; };
+		EC3DB07517BD41B300E33922 /* done_push.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01B17BD41B300E33922 /* done_push.png */; };
+		EC3DB07617BD41B300E33922 /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01C17BD41B300E33922 /* done.png */; };
+		EC3DB07717BD41B300E33922 /* entrar_login_boton_push.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01D17BD41B300E33922 /* entrar_login_boton_push.png */; };
+		EC3DB07817BD41B300E33922 /* entrar_login_boton.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01E17BD41B300E33922 /* entrar_login_boton.png */; };
+		EC3DB07917BD41B300E33922 /* field_replication.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB01F17BD41B300E33922 /* field_replication.png */; };
+		EC3DB07A17BD41B300E33922 /* ipad_web.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB02017BD41B300E33922 /* ipad_web.png */; };
+		EC3DB07C17BD41B300E33922 /* neutral_push.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB02217BD41B300E33922 /* neutral_push.png */; };
+		EC3DB07D17BD41B300E33922 /* neutral.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB02317BD41B300E33922 /* neutral.png */; };
+		EC3DB07F17BD41B300E33922 /* phase_field.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB02517BD41B300E33922 /* phase_field.png */; };
+		EC3DB08017BD41B300E33922 /* replica_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB02617BD41B300E33922 /* replica_bar.png */; };
+		EC3DB08117BD41B300E33922 /* replica_over.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB02717BD41B300E33922 /* replica_over.png */; };
+		EC3DB08217BD41B300E33922 /* replica.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB02817BD41B300E33922 /* replica.png */; };
+		EC3DB08317BD41B300E33922 /* reportes_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB02917BD41B300E33922 /* reportes_bar.png */; };
+		EC3DB08417BD41B300E33922 /* reportes_over.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB02A17BD41B300E33922 /* reportes_over.png */; };
+		EC3DB08517BD41B300E33922 /* reportes.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB02B17BD41B300E33922 /* reportes.png */; };
+		EC3DB08717BD41B300E33922 /* table_six_items.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB02D17BD41B300E33922 /* table_six_items.png */; };
+		EC3DB08817BD41B300E33922 /* table_two_items.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB02E17BD41B300E33922 /* table_two_items.png */; };
+		EC3DB08917BD41B300E33922 /* table.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB02F17BD41B300E33922 /* table.png */; };
+		EC3DB08A17BD41B300E33922 /* test_conection.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB03017BD41B300E33922 /* test_conection.png */; };
+		EC3DB08B17BD41B300E33922 /* undone_push.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB03117BD41B300E33922 /* undone_push.png */; };
+		EC3DB08C17BD41B300E33922 /* undone.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB03217BD41B300E33922 /* undone.png */; };
+		EC3DB08D17BD41B300E33922 /* user_black.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB03317BD41B300E33922 /* user_black.png */; };
+		EC3DB08E17BD41B300E33922 /* usuario_over.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB03417BD41B300E33922 /* usuario_over.png */; };
+		EC3DB08F17BD41B300E33922 /* usuario.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB03517BD41B300E33922 /* usuario.png */; };
+		EC3DB09017BD41B300E33922 /* usuarios_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB03617BD41B300E33922 /* usuarios_bar.png */; };
+		EC3DB09117BD41B300E33922 /* web-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB03717BD41B300E33922 /* web-ipad.png */; };
+		EC3DB09317BD437100E33922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB09217BD437100E33922 /* Main.storyboard */; };
+		EC3DB0A017BD444D00E33922 /* NSData+Persistence.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB09717BD444D00E33922 /* NSData+Persistence.m */; };
+		EC3DB0A117BD444D00E33922 /* UIImage+Persistence.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB09917BD444D00E33922 /* UIImage+Persistence.m */; };
+		EC3DB0A217BD444D00E33922 /* NSDictionary+Persistence.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB09B17BD444D00E33922 /* NSDictionary+Persistence.m */; };
+		EC3DB0A317BD444D00E33922 /* NSArray+Persistence.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB09D17BD444D00E33922 /* NSArray+Persistence.m */; };
+		EC3DB0A417BD444D00E33922 /* NSObject+PersistanceConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB09F17BD444D00E33922 /* NSObject+PersistanceConvenience.m */; };
+		EC3DB0A917BD44D500E33922 /* SEECImageCollectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0A817BD44D500E33922 /* SEECImageCollectorViewController.m */; };
+		EC3DB0B417BD44FF00E33922 /* FGalleryPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0AD17BD44FF00E33922 /* FGalleryPhoto.m */; };
+		EC3DB0B517BD44FF00E33922 /* FGalleryPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0AF17BD44FF00E33922 /* FGalleryPhotoView.m */; };
+		EC3DB0B617BD44FF00E33922 /* FGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0B117BD44FF00E33922 /* FGalleryViewController.m */; };
+		EC3DB0B717BD44FF00E33922 /* SEECPhotoGallerySource.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0B317BD44FF00E33922 /* SEECPhotoGallerySource.m */; };
+		EC3DB0BB17BD451400E33922 /* SEECHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0BA17BD451400E33922 /* SEECHelpViewController.m */; };
+		EC3DB0C017BD453D00E33922 /* SEECReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0BF17BD453D00E33922 /* SEECReportViewController.m */; };
+		EC3DB0C417BD455B00E33922 /* SEECUpDateAdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0C317BD455B00E33922 /* SEECUpDateAdminViewController.m */; };
+		EC3DB0C817BD457100E33922 /* SEECUserAdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0C717BD457100E33922 /* SEECUserAdminViewController.m */; };
+		EC3DB0CC17BD458600E33922 /* UIViewController+Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0CB17BD458600E33922 /* UIViewController+Camera.m */; };
+		EC3DB0D017BD459800E33922 /* SEECSetSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0CF17BD459800E33922 /* SEECSetSearchViewController.m */; };
+		EC3DB0D417BD45AB00E33922 /* SEECSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0D317BD45AB00E33922 /* SEECSearchViewController.m */; };
+		EC3DB0DC17BD45C100E33922 /* SEECStatesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0D717BD45C100E33922 /* SEECStatesTableViewController.m */; };
+		EC3DB0DD17BD45C100E33922 /* SEECCitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0D917BD45C100E33922 /* SEECCitiesTableViewController.m */; };
+		EC3DB0DE17BD45C100E33922 /* SEECSucursalesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0DB17BD45C100E33922 /* SEECSucursalesTableViewController.m */; };
+		EC3DB0E217BD45D500E33922 /* SEECResponsibleAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0E117BD45D500E33922 /* SEECResponsibleAreaViewController.m */; };
+		EC3DB0E617BD45E900E33922 /* SEECSSICSIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0E517BD45E900E33922 /* SEECSSICSIViewController.m */; };
+		EC3DB0EA17BD45FE00E33922 /* SEECUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0E917BD45FE00E33922 /* SEECUtilities.m */; };
+		EC3DB0EE17BD461200E33922 /* SEECUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0ED17BD461200E33922 /* SEECUser.m */; };
+		EC3DB0F217BD462F00E33922 /* SEECDealerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0F117BD462F00E33922 /* SEECDealerInfoViewController.m */; };
+		EC3DB0FB17BD467F00E33922 /* SEECReplicaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0F917BD467F00E33922 /* SEECReplicaViewController.m */; };
+		EC3DB0FE17BD468700E33922 /* SEECAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB0FD17BD468700E33922 /* SEECAlertViewController.m */; };
+		EC3DB10617BD46A100E33922 /* RecipeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB10117BD46A100E33922 /* RecipeCollectionViewController.m */; };
+		EC3DB10717BD46A100E33922 /* RecipeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB10317BD46A100E33922 /* RecipeViewCell.m */; };
+		EC3DB10817BD46A100E33922 /* SEECEvaluationWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB10517BD46A100E33922 /* SEECEvaluationWebViewController.m */; };
+		EC3DB10B17BD46B900E33922 /* photo-frame-selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB10917BD46B900E33922 /* photo-frame-selected.jpg */; };
+		EC3DB10C17BD46B900E33922 /* photo-frame-2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3DB10A17BD46B900E33922 /* photo-frame-2.png */; };
+		EC3DB10F17BD46C400E33922 /* SEECTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB10E17BD46C400E33922 /* SEECTypeViewController.m */; };
+		EC3DB11417BD46CE00E33922 /* SEECSearchByPhaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB11117BD46CE00E33922 /* SEECSearchByPhaseViewController.m */; };
+		EC3DB11517BD46CE00E33922 /* SEECBranchFromWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB11317BD46CE00E33922 /* SEECBranchFromWebViewController.m */; };
+		EC3DB11D17BD471200E33922 /* SEECViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB11C17BD471200E33922 /* SEECViewController.m */; };
+		EC3DB12017BD471C00E33922 /* SEECApplyEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB11F17BD471C00E33922 /* SEECApplyEvaluationViewController.m */; };
+		EC3DB12517BD472500E33922 /* SEECNSSWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB12217BD472500E33922 /* SEECNSSWViewController.m */; };
+		EC3DB12617BD472500E33922 /* SEECNSSWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB12417BD472500E33922 /* SEECNSSWDetailViewController.m */; };
+		EC3DB12917BD472D00E33922 /* SEECEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB12817BD472D00E33922 /* SEECEvaluationViewController.m */; };
+		EC3DB13017BD475800E33922 /* SEECPhaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB12D17BD475800E33922 /* SEECPhaseViewController.m */; };
+		EC3DB13117BD475800E33922 /* SEECPhaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB12F17BD475800E33922 /* SEECPhaseWebViewController.m */; };
+		EC3DB13417BD475F00E33922 /* SEECAuditoriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB13317BD475F00E33922 /* SEECAuditoriaViewController.m */; };
+		EC3DB13817BD477100E33922 /* SEECMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB13717BD477100E33922 /* SEECMenuViewController.m */; };
+		EC3DB13C17BD477D00E33922 /* SEECLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB13B17BD477D00E33922 /* SEECLoginViewController.m */; };
+		EC3DB14017BD478D00E33922 /* SEECMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB13F17BD478D00E33922 /* SEECMainTabBarController.m */; };
+		EC3DB14417BD47B100E33922 /* SEECReportesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB14317BD47B100E33922 /* SEECReportesViewController.m */; };
+		EC3DB15C17BD480D00E33922 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB14817BD480D00E33922 /* AFHTTPClient.m */; };
+		EC3DB15D17BD480D00E33922 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB14A17BD480D00E33922 /* AFHTTPRequestOperation.m */; };
+		EC3DB15E17BD480D00E33922 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB14C17BD480D00E33922 /* AFImageRequestOperation.m */; };
+		EC3DB15F17BD480D00E33922 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB14E17BD480D00E33922 /* AFJSONRequestOperation.m */; };
+		EC3DB16017BD480D00E33922 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB15017BD480D00E33922 /* AFJSONUtilities.m */; };
+		EC3DB16117BD480D00E33922 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB15217BD480D00E33922 /* AFNetworkActivityIndicatorManager.m */; };
+		EC3DB16217BD480D00E33922 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB15517BD480D00E33922 /* AFPropertyListRequestOperation.m */; };
+		EC3DB16317BD480D00E33922 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB15717BD480D00E33922 /* AFURLConnectionOperation.m */; };
+		EC3DB16417BD480D00E33922 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB15917BD480D00E33922 /* AFXMLRequestOperation.m */; };
+		EC3DB16517BD480D00E33922 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB15B17BD480D00E33922 /* UIImageView+AFNetworking.m */; };
+		EC3DB16717BD482F00E33922 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3DB16617BD482F00E33922 /* MobileCoreServices.framework */; };
+		EC3DB16917BD483C00E33922 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3DB16817BD483C00E33922 /* QuartzCore.framework */; };
+		EC3DB16B17BD484C00E33922 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3DB16A17BD484B00E33922 /* CoreData.framework */; };
+		EC3DB16E17BD490200E33922 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DB16D17BD490200E33922 /* JSONKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB78E17917CD196400B8D963 /* iseec_state.json.back */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iseec_state.json.back; sourceTree = "<group>"; };
+		DB78E17B17CD1B0200B8D963 /* iseec_city.json.back */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iseec_city.json.back; sourceTree = "<group>"; };
+		DB78E17D17CD230A00B8D963 /* seec_department.json.back */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seec_department.json.back; sourceTree = "<group>"; };
+		DB78E17F17CD23F700B8D963 /* seec_branchType.json.back */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seec_branchType.json.back; sourceTree = "<group>"; };
+		DBAA0D0617CD70B00075A4EE /* seec_manual.json.back */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seec_manual.json.back; sourceTree = "<group>"; };
+		DBCE492217D161A5002A6896 /* boton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boton.png; path = ../boton.png; sourceTree = "<group>"; };
+		DBCE492617D1625B002A6896 /* reporte1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reporte1.png; path = ../reporte1.png; sourceTree = "<group>"; };
+		DBCE492817D1627F002A6896 /* reporte3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reporte3.png; path = ../reporte3.png; sourceTree = "<group>"; };
+		DBCE492A17D162B7002A6896 /* logos generales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logos generales.png"; path = "../logos generales.png"; sourceTree = "<group>"; };
+		DBCE492B17D162B7002A6896 /* seec_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seec_logo.png; path = ../seec_logo.png; sourceTree = "<group>"; };
+		DBCE492E17D162E7002A6896 /* background_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_login.png; path = ../background_login.png; sourceTree = "<group>"; };
+		DBCE492F17D162E7002A6896 /* nissan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nissan.png; path = ../nissan.png; sourceTree = "<group>"; };
+		DBCE493217D16349002A6896 /* GraphicsReport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GraphicsReport.png; path = ../GraphicsReport.png; sourceTree = "<group>"; };
+		DBD8CCEA17D157D500D7772E /* icon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2x.png; sourceTree = "<group>"; };
+		EC3DAF9017BD400B00E33922 /* Infiniti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Infiniti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3DAF9317BD400B00E33922 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC3DAF9517BD400B00E33922 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC3DAF9717BD400B00E33922 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC3DAF9B17BD400B00E33922 /* Infiniti-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Infiniti-Info.plist"; sourceTree = "<group>"; };
+		EC3DAF9D17BD400B00E33922 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC3DAF9F17BD400B00E33922 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC3DAFA117BD400B00E33922 /* Infiniti-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Infiniti-Prefix.pch"; sourceTree = "<group>"; };
+		EC3DAFA517BD400B00E33922 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EC3DAFA717BD400B00E33922 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EC3DAFA917BD400B00E33922 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EC3DAFB017BD410600E33922 /* SEECServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECServerRequest.h; sourceTree = "<group>"; };
+		EC3DAFB117BD410600E33922 /* SEECServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECServerRequest.m; sourceTree = "<group>"; };
+		EC3DAFB517BD412400E33922 /* SEECAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECAppDelegate.h; sourceTree = "<group>"; };
+		EC3DAFB617BD412400E33922 /* SEECAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECAppDelegate.m; sourceTree = "<group>"; };
+		EC3DAFB717BD412400E33922 /* SEECConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECConstants.h; sourceTree = "<group>"; };
+		EC3DAFC117BD419600E33922 /* seec_phaseCatalog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seec_phaseCatalog.json; sourceTree = "<group>"; };
+		EC3DAFC217BD419600E33922 /* seec_manual.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seec_manual.json; sourceTree = "<group>"; };
+		EC3DAFC317BD419600E33922 /* seec_standard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seec_standard.json; sourceTree = "<group>"; };
+		EC3DAFC417BD419600E33922 /* seec_activity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seec_activity.json; sourceTree = "<group>"; };
+		EC3DAFC517BD419600E33922 /* seec_login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seec_login.json; sourceTree = "<group>"; };
+		EC3DAFC617BD419600E33922 /* seec_user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seec_user.json; sourceTree = "<group>"; };
+		EC3DAFC717BD419600E33922 /* iseec_state.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iseec_state.json; sourceTree = "<group>"; };
+		EC3DAFC817BD419600E33922 /* seec_zone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seec_zone.json; sourceTree = "<group>"; };
+		EC3DAFC917BD419600E33922 /* seec_branch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seec_branch.json; sourceTree = "<group>"; };
+		EC3DAFCA17BD419600E33922 /* seec_branchType.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seec_branchType.json; sourceTree = "<group>"; };
+		EC3DAFCB17BD419600E33922 /* iseec_city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iseec_city.json; sourceTree = "<group>"; };
+		EC3DAFCC17BD419600E33922 /* seec_department.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seec_department.json; sourceTree = "<group>"; };
+		EC3DAFCD17BD419600E33922 /* seec_owner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seec_owner.json; sourceTree = "<group>"; };
+		EC3DAFCE17BD419600E33922 /* seec_role.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seec_role.json; sourceTree = "<group>"; };
+		EC3DAFDE17BD41B300E33922 /* ipad_web_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_web_on.png; sourceTree = "<group>"; };
+		EC3DAFDF17BD41B300E33922 /* web-ipad_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web-ipad_on.png"; sourceTree = "<group>"; };
+		EC3DAFE217BD41B300E33922 /* camera4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera4.png; sourceTree = "<group>"; };
+		EC3DAFE317BD41B300E33922 /* sectionBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sectionBg.png; sourceTree = "<group>"; };
+		EC3DAFE417BD41B300E33922 /* disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure.png; sourceTree = "<group>"; };
+		EC3DAFE517BD41B300E33922 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		EC3DAFE617BD41B300E33922 /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
+		EC3DAFE717BD41B300E33922 /* silver_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silver_selected.png; sourceTree = "<group>"; };
+		EC3DAFE817BD41B300E33922 /* shrink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shrink.png; sourceTree = "<group>"; };
+		EC3DAFE917BD41B300E33922 /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
+		EC3DAFEA17BD41B300E33922 /* clip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clip.png; sourceTree = "<group>"; };
+		EC3DAFEB17BD41B300E33922 /* Trash1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trash1.png; sourceTree = "<group>"; };
+		EC3DAFEC17BD41B300E33922 /* ExamplePhoto_0.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ExamplePhoto_0.JPG; sourceTree = "<group>"; };
+		EC3DAFED17BD41B300E33922 /* ExamplePhoto_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ExamplePhoto_1.JPG; sourceTree = "<group>"; };
+		EC3DAFEE17BD41B300E33922 /* ExamplePhoto_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ExamplePhoto_2.JPG; sourceTree = "<group>"; };
+		EC3DAFEF17BD41B300E33922 /* ExamplePhoto_3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ExamplePhoto_3.JPG; sourceTree = "<group>"; };
+		EC3DAFF017BD41B300E33922 /* ExamplePhoto_4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ExamplePhoto_4.JPG; sourceTree = "<group>"; };
+		EC3DAFF117BD41B300E33922 /* ExamplePhoto_5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ExamplePhoto_5.JPG; sourceTree = "<group>"; };
+		EC3DAFF217BD41B300E33922 /* applied.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applied.png; sourceTree = "<group>"; };
+		EC3DAFF317BD41B300E33922 /* noEvaluation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noEvaluation.png; sourceTree = "<group>"; };
+		EC3DAFF417BD41B300E33922 /* noReached.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noReached.png; sourceTree = "<group>"; };
+		EC3DAFF517BD41B300E33922 /* notApplied.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notApplied.png; sourceTree = "<group>"; };
+		EC3DAFF617BD41B300E33922 /* gold_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold_selected.png; sourceTree = "<group>"; };
+		EC3DAFF717BD41B300E33922 /* textBanner_seec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textBanner_seec.png; sourceTree = "<group>"; };
+		EC3DAFF817BD41B300E33922 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		EC3DAFF917BD41B300E33922 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		EC3DAFFA17BD41B300E33922 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		EC3DAFFC17BD41B300E33922 /* BACKGRUND_GENERIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BACKGRUND_GENERIC.png; sourceTree = "<group>"; };
+		EC3DAFFD17BD41B300E33922 /* table_eight_items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_eight_items.png; sourceTree = "<group>"; };
+		EC3DAFFE17BD41B300E33922 /* BUTTON_EXIT_PUSH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BUTTON_EXIT_PUSH.png; sourceTree = "<group>"; };
+		EC3DAFFF17BD41B300E33922 /* BUTTON_EXIT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BUTTON_EXIT.png; sourceTree = "<group>"; };
+		EC3DB00017BD41B300E33922 /* table_seven_items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_seven_items.png; sourceTree = "<group>"; };
+		EC3DB00117BD41B300E33922 /* boton logout-push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boton logout-push.png"; sourceTree = "<group>"; };
+		EC3DB00217BD41B300E33922 /* boton logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boton logout.png"; sourceTree = "<group>"; };
+		EC3DB00317BD41B300E33922 /* arbolmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbolmenu.png; sourceTree = "<group>"; };
+		EC3DB00417BD41B300E33922 /* actualizaciones_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actualizaciones_over.png; sourceTree = "<group>"; };
+		EC3DB00517BD41B300E33922 /* actualizaciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actualizaciones.png; sourceTree = "<group>"; };
+		EC3DB00617BD41B300E33922 /* table_three_items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_three_items.png; sourceTree = "<group>"; };
+		EC3DB00717BD41B300E33922 /* dato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dato.png; sourceTree = "<group>"; };
+		EC3DB00817BD41B300E33922 /* certificado oro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "certificado oro.png"; sourceTree = "<group>"; };
+		EC3DB00917BD41B300E33922 /* certificado plata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "certificado plata.png"; sourceTree = "<group>"; };
+		EC3DB00A17BD41B300E33922 /* actualizar_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actualizar_bar.png; sourceTree = "<group>"; };
+		EC3DB00B17BD41B300E33922 /* addfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addfile.png; sourceTree = "<group>"; };
+		EC3DB00C17BD41B300E33922 /* addfile_push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addfile_push.png; sourceTree = "<group>"; };
+		EC3DB00D17BD41B300E33922 /* auditoria_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = auditoria_bar.png; sourceTree = "<group>"; };
+		EC3DB00E17BD41B300E33922 /* auditoria_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = auditoria_over.png; sourceTree = "<group>"; };
+		EC3DB00F17BD41B300E33922 /* auditoria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = auditoria.png; sourceTree = "<group>"; };
+		EC3DB01017BD41B300E33922 /* ayuda_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ayuda_bar.png; sourceTree = "<group>"; };
+		EC3DB01117BD41B300E33922 /* ayuda_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ayuda_over.png; sourceTree = "<group>"; };
+		EC3DB01217BD41B300E33922 /* ayuda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ayuda.png; sourceTree = "<group>"; };
+		EC3DB01317BD41B300E33922 /* background_general.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_general.png; sourceTree = "<group>"; };
+		EC3DB01517BD41B300E33922 /* board_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board_1.png; sourceTree = "<group>"; };
+		EC3DB01617BD41B300E33922 /* template.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = template.png; sourceTree = "<group>"; };
+		EC3DB01717BD41B300E33922 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		EC3DB01917BD41B300E33922 /* button_generic_push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_generic_push.png; sourceTree = "<group>"; };
+		EC3DB01A17BD41B300E33922 /* button_generic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_generic.png; sourceTree = "<group>"; };
+		EC3DB01B17BD41B300E33922 /* done_push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done_push.png; sourceTree = "<group>"; };
+		EC3DB01C17BD41B300E33922 /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done.png; sourceTree = "<group>"; };
+		EC3DB01D17BD41B300E33922 /* entrar_login_boton_push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entrar_login_boton_push.png; sourceTree = "<group>"; };
+		EC3DB01E17BD41B300E33922 /* entrar_login_boton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entrar_login_boton.png; sourceTree = "<group>"; };
+		EC3DB01F17BD41B300E33922 /* field_replication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = field_replication.png; sourceTree = "<group>"; };
+		EC3DB02017BD41B300E33922 /* ipad_web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_web.png; sourceTree = "<group>"; };
+		EC3DB02217BD41B300E33922 /* neutral_push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neutral_push.png; sourceTree = "<group>"; };
+		EC3DB02317BD41B300E33922 /* neutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neutral.png; sourceTree = "<group>"; };
+		EC3DB02517BD41B300E33922 /* phase_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phase_field.png; sourceTree = "<group>"; };
+		EC3DB02617BD41B300E33922 /* replica_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = replica_bar.png; sourceTree = "<group>"; };
+		EC3DB02717BD41B300E33922 /* replica_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = replica_over.png; sourceTree = "<group>"; };
+		EC3DB02817BD41B300E33922 /* replica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = replica.png; sourceTree = "<group>"; };
+		EC3DB02917BD41B300E33922 /* reportes_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reportes_bar.png; sourceTree = "<group>"; };
+		EC3DB02A17BD41B300E33922 /* reportes_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reportes_over.png; sourceTree = "<group>"; };
+		EC3DB02B17BD41B300E33922 /* reportes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reportes.png; sourceTree = "<group>"; };
+		EC3DB02D17BD41B300E33922 /* table_six_items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_six_items.png; sourceTree = "<group>"; };
+		EC3DB02E17BD41B300E33922 /* table_two_items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_two_items.png; sourceTree = "<group>"; };
+		EC3DB02F17BD41B300E33922 /* table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table.png; sourceTree = "<group>"; };
+		EC3DB03017BD41B300E33922 /* test_conection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_conection.png; sourceTree = "<group>"; };
+		EC3DB03117BD41B300E33922 /* undone_push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undone_push.png; sourceTree = "<group>"; };
+		EC3DB03217BD41B300E33922 /* undone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undone.png; sourceTree = "<group>"; };
+		EC3DB03317BD41B300E33922 /* user_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_black.png; sourceTree = "<group>"; };
+		EC3DB03417BD41B300E33922 /* usuario_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usuario_over.png; sourceTree = "<group>"; };
+		EC3DB03517BD41B300E33922 /* usuario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usuario.png; sourceTree = "<group>"; };
+		EC3DB03617BD41B300E33922 /* usuarios_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usuarios_bar.png; sourceTree = "<group>"; };
+		EC3DB03717BD41B300E33922 /* web-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web-ipad.png"; sourceTree = "<group>"; };
+		EC3DB09217BD437100E33922 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EC3DB09617BD444D00E33922 /* NSData+Persistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Persistence.h"; sourceTree = "<group>"; };
+		EC3DB09717BD444D00E33922 /* NSData+Persistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Persistence.m"; sourceTree = "<group>"; };
+		EC3DB09817BD444D00E33922 /* UIImage+Persistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Persistence.h"; sourceTree = "<group>"; };
+		EC3DB09917BD444D00E33922 /* UIImage+Persistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Persistence.m"; sourceTree = "<group>"; };
+		EC3DB09A17BD444D00E33922 /* NSDictionary+Persistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Persistence.h"; sourceTree = "<group>"; };
+		EC3DB09B17BD444D00E33922 /* NSDictionary+Persistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Persistence.m"; sourceTree = "<group>"; };
+		EC3DB09C17BD444D00E33922 /* NSArray+Persistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Persistence.h"; sourceTree = "<group>"; };
+		EC3DB09D17BD444D00E33922 /* NSArray+Persistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Persistence.m"; sourceTree = "<group>"; };
+		EC3DB09E17BD444D00E33922 /* NSObject+PersistanceConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PersistanceConvenience.h"; sourceTree = "<group>"; };
+		EC3DB09F17BD444D00E33922 /* NSObject+PersistanceConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PersistanceConvenience.m"; sourceTree = "<group>"; };
+		EC3DB0A717BD44D500E33922 /* SEECImageCollectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECImageCollectorViewController.h; sourceTree = "<group>"; };
+		EC3DB0A817BD44D500E33922 /* SEECImageCollectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECImageCollectorViewController.m; sourceTree = "<group>"; };
+		EC3DB0AC17BD44FF00E33922 /* FGalleryPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGalleryPhoto.h; sourceTree = "<group>"; };
+		EC3DB0AD17BD44FF00E33922 /* FGalleryPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGalleryPhoto.m; sourceTree = "<group>"; };
+		EC3DB0AE17BD44FF00E33922 /* FGalleryPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGalleryPhotoView.h; sourceTree = "<group>"; };
+		EC3DB0AF17BD44FF00E33922 /* FGalleryPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGalleryPhotoView.m; sourceTree = "<group>"; };
+		EC3DB0B017BD44FF00E33922 /* FGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGalleryViewController.h; sourceTree = "<group>"; };
+		EC3DB0B117BD44FF00E33922 /* FGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGalleryViewController.m; sourceTree = "<group>"; };
+		EC3DB0B217BD44FF00E33922 /* SEECPhotoGallerySource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECPhotoGallerySource.h; sourceTree = "<group>"; };
+		EC3DB0B317BD44FF00E33922 /* SEECPhotoGallerySource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECPhotoGallerySource.m; sourceTree = "<group>"; };
+		EC3DB0B917BD451400E33922 /* SEECHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECHelpViewController.h; sourceTree = "<group>"; };
+		EC3DB0BA17BD451400E33922 /* SEECHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECHelpViewController.m; sourceTree = "<group>"; };
+		EC3DB0BE17BD453D00E33922 /* SEECReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECReportViewController.h; sourceTree = "<group>"; };
+		EC3DB0BF17BD453D00E33922 /* SEECReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECReportViewController.m; sourceTree = "<group>"; };
+		EC3DB0C217BD455B00E33922 /* SEECUpDateAdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECUpDateAdminViewController.h; sourceTree = "<group>"; };
+		EC3DB0C317BD455B00E33922 /* SEECUpDateAdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECUpDateAdminViewController.m; sourceTree = "<group>"; };
+		EC3DB0C617BD457100E33922 /* SEECUserAdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECUserAdminViewController.h; sourceTree = "<group>"; };
+		EC3DB0C717BD457100E33922 /* SEECUserAdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECUserAdminViewController.m; sourceTree = "<group>"; };
+		EC3DB0CA17BD458600E33922 /* UIViewController+Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Camera.h"; sourceTree = "<group>"; };
+		EC3DB0CB17BD458600E33922 /* UIViewController+Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Camera.m"; sourceTree = "<group>"; };
+		EC3DB0CE17BD459800E33922 /* SEECSetSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECSetSearchViewController.h; sourceTree = "<group>"; };
+		EC3DB0CF17BD459800E33922 /* SEECSetSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECSetSearchViewController.m; sourceTree = "<group>"; };
+		EC3DB0D217BD45AB00E33922 /* SEECSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECSearchViewController.h; sourceTree = "<group>"; };
+		EC3DB0D317BD45AB00E33922 /* SEECSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECSearchViewController.m; sourceTree = "<group>"; };
+		EC3DB0D617BD45C100E33922 /* SEECStatesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECStatesTableViewController.h; sourceTree = "<group>"; };
+		EC3DB0D717BD45C100E33922 /* SEECStatesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECStatesTableViewController.m; sourceTree = "<group>"; };
+		EC3DB0D817BD45C100E33922 /* SEECCitiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECCitiesTableViewController.h; sourceTree = "<group>"; };
+		EC3DB0D917BD45C100E33922 /* SEECCitiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECCitiesTableViewController.m; sourceTree = "<group>"; };
+		EC3DB0DA17BD45C100E33922 /* SEECSucursalesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECSucursalesTableViewController.h; sourceTree = "<group>"; };
+		EC3DB0DB17BD45C100E33922 /* SEECSucursalesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECSucursalesTableViewController.m; sourceTree = "<group>"; };
+		EC3DB0E017BD45D500E33922 /* SEECResponsibleAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECResponsibleAreaViewController.h; sourceTree = "<group>"; };
+		EC3DB0E117BD45D500E33922 /* SEECResponsibleAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECResponsibleAreaViewController.m; sourceTree = "<group>"; };
+		EC3DB0E417BD45E900E33922 /* SEECSSICSIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECSSICSIViewController.h; sourceTree = "<group>"; };
+		EC3DB0E517BD45E900E33922 /* SEECSSICSIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECSSICSIViewController.m; sourceTree = "<group>"; };
+		EC3DB0E817BD45FE00E33922 /* SEECUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECUtilities.h; sourceTree = "<group>"; };
+		EC3DB0E917BD45FE00E33922 /* SEECUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECUtilities.m; sourceTree = "<group>"; };
+		EC3DB0EC17BD461200E33922 /* SEECUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECUser.h; sourceTree = "<group>"; };
+		EC3DB0ED17BD461200E33922 /* SEECUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECUser.m; sourceTree = "<group>"; };
+		EC3DB0F017BD462F00E33922 /* SEECDealerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECDealerInfoViewController.h; sourceTree = "<group>"; };
+		EC3DB0F117BD462F00E33922 /* SEECDealerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECDealerInfoViewController.m; sourceTree = "<group>"; };
+		EC3DB0F917BD467F00E33922 /* SEECReplicaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECReplicaViewController.m; sourceTree = "<group>"; };
+		EC3DB0FA17BD467F00E33922 /* SEECReplicaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECReplicaViewController.h; sourceTree = "<group>"; };
+		EC3DB0FC17BD468700E33922 /* SEECAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECAlertViewController.h; sourceTree = "<group>"; };
+		EC3DB0FD17BD468700E33922 /* SEECAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECAlertViewController.m; sourceTree = "<group>"; };
+		EC3DB10017BD46A100E33922 /* RecipeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionViewController.h; sourceTree = "<group>"; };
+		EC3DB10117BD46A100E33922 /* RecipeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionViewController.m; sourceTree = "<group>"; };
+		EC3DB10217BD46A100E33922 /* RecipeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewCell.h; sourceTree = "<group>"; };
+		EC3DB10317BD46A100E33922 /* RecipeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewCell.m; sourceTree = "<group>"; };
+		EC3DB10417BD46A100E33922 /* SEECEvaluationWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECEvaluationWebViewController.h; sourceTree = "<group>"; };
+		EC3DB10517BD46A100E33922 /* SEECEvaluationWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECEvaluationWebViewController.m; sourceTree = "<group>"; };
+		EC3DB10917BD46B900E33922 /* photo-frame-selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-frame-selected.jpg"; sourceTree = "<group>"; };
+		EC3DB10A17BD46B900E33922 /* photo-frame-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame-2.png"; sourceTree = "<group>"; };
+		EC3DB10D17BD46C400E33922 /* SEECTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECTypeViewController.h; sourceTree = "<group>"; };
+		EC3DB10E17BD46C400E33922 /* SEECTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECTypeViewController.m; sourceTree = "<group>"; };
+		EC3DB11017BD46CE00E33922 /* SEECSearchByPhaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECSearchByPhaseViewController.h; sourceTree = "<group>"; };
+		EC3DB11117BD46CE00E33922 /* SEECSearchByPhaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECSearchByPhaseViewController.m; sourceTree = "<group>"; };
+		EC3DB11217BD46CE00E33922 /* SEECBranchFromWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECBranchFromWebViewController.h; sourceTree = "<group>"; };
+		EC3DB11317BD46CE00E33922 /* SEECBranchFromWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECBranchFromWebViewController.m; sourceTree = "<group>"; };
+		EC3DB11B17BD471200E33922 /* SEECViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECViewController.h; sourceTree = "<group>"; };
+		EC3DB11C17BD471200E33922 /* SEECViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECViewController.m; sourceTree = "<group>"; };
+		EC3DB11E17BD471C00E33922 /* SEECApplyEvaluationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECApplyEvaluationViewController.h; sourceTree = "<group>"; };
+		EC3DB11F17BD471C00E33922 /* SEECApplyEvaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECApplyEvaluationViewController.m; sourceTree = "<group>"; };
+		EC3DB12117BD472500E33922 /* SEECNSSWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECNSSWViewController.h; sourceTree = "<group>"; };
+		EC3DB12217BD472500E33922 /* SEECNSSWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECNSSWViewController.m; sourceTree = "<group>"; };
+		EC3DB12317BD472500E33922 /* SEECNSSWDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECNSSWDetailViewController.h; sourceTree = "<group>"; };
+		EC3DB12417BD472500E33922 /* SEECNSSWDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECNSSWDetailViewController.m; sourceTree = "<group>"; };
+		EC3DB12717BD472D00E33922 /* SEECEvaluationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECEvaluationViewController.h; sourceTree = "<group>"; };
+		EC3DB12817BD472D00E33922 /* SEECEvaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECEvaluationViewController.m; sourceTree = "<group>"; };
+		EC3DB12C17BD475800E33922 /* SEECPhaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECPhaseViewController.h; sourceTree = "<group>"; };
+		EC3DB12D17BD475800E33922 /* SEECPhaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECPhaseViewController.m; sourceTree = "<group>"; };
+		EC3DB12E17BD475800E33922 /* SEECPhaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECPhaseWebViewController.h; sourceTree = "<group>"; };
+		EC3DB12F17BD475800E33922 /* SEECPhaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECPhaseWebViewController.m; sourceTree = "<group>"; };
+		EC3DB13217BD475F00E33922 /* SEECAuditoriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECAuditoriaViewController.h; sourceTree = "<group>"; };
+		EC3DB13317BD475F00E33922 /* SEECAuditoriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECAuditoriaViewController.m; sourceTree = "<group>"; };
+		EC3DB13617BD477100E33922 /* SEECMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECMenuViewController.h; sourceTree = "<group>"; };
+		EC3DB13717BD477100E33922 /* SEECMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECMenuViewController.m; sourceTree = "<group>"; };
+		EC3DB13A17BD477D00E33922 /* SEECLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECLoginViewController.h; sourceTree = "<group>"; };
+		EC3DB13B17BD477D00E33922 /* SEECLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECLoginViewController.m; sourceTree = "<group>"; };
+		EC3DB13E17BD478D00E33922 /* SEECMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECMainTabBarController.h; sourceTree = "<group>"; };
+		EC3DB13F17BD478D00E33922 /* SEECMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECMainTabBarController.m; sourceTree = "<group>"; };
+		EC3DB14217BD47B100E33922 /* SEECReportesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEECReportesViewController.h; sourceTree = "<group>"; };
+		EC3DB14317BD47B100E33922 /* SEECReportesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEECReportesViewController.m; sourceTree = "<group>"; };
+		EC3DB14717BD480D00E33922 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		EC3DB14817BD480D00E33922 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		EC3DB14917BD480D00E33922 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		EC3DB14A17BD480D00E33922 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		EC3DB14B17BD480D00E33922 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		EC3DB14C17BD480D00E33922 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		EC3DB14D17BD480D00E33922 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		EC3DB14E17BD480D00E33922 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		EC3DB14F17BD480D00E33922 /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
+		EC3DB15017BD480D00E33922 /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONUtilities.m; sourceTree = "<group>"; };
+		EC3DB15117BD480D00E33922 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		EC3DB15217BD480D00E33922 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		EC3DB15317BD480D00E33922 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		EC3DB15417BD480D00E33922 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		EC3DB15517BD480D00E33922 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		EC3DB15617BD480D00E33922 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		EC3DB15717BD480D00E33922 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		EC3DB15817BD480D00E33922 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		EC3DB15917BD480D00E33922 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		EC3DB15A17BD480D00E33922 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		EC3DB15B17BD480D00E33922 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		EC3DB16617BD482F00E33922 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EC3DB16817BD483C00E33922 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EC3DB16A17BD484B00E33922 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EC3DB16C17BD490200E33922 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		EC3DB16D17BD490200E33922 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC3DAF8D17BD400B00E33922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3DB16717BD482F00E33922 /* MobileCoreServices.framework in Frameworks */,
+				EC3DB16B17BD484C00E33922 /* CoreData.framework in Frameworks */,
+				EC3DB16917BD483C00E33922 /* QuartzCore.framework in Frameworks */,
+				EC3DAF9417BD400B00E33922 /* UIKit.framework in Frameworks */,
+				EC3DAF9617BD400B00E33922 /* Foundation.framework in Frameworks */,
+				EC3DAF9817BD400B00E33922 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC3DAF8717BD400B00E33922 = {
+			isa = PBXGroup;
+			children = (
+				DBD8CCEA17D157D500D7772E /* icon2x.png */,
+				EC3DAFB017BD410600E33922 /* SEECServerRequest.h */,
+				EC3DAFB117BD410600E33922 /* SEECServerRequest.m */,
+				EC3DAF9917BD400B00E33922 /* Infiniti */,
+				EC3DAF9217BD400B00E33922 /* Frameworks */,
+				EC3DAF9117BD400B00E33922 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC3DAF9117BD400B00E33922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DAF9017BD400B00E33922 /* Infiniti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3DAF9217BD400B00E33922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB16617BD482F00E33922 /* MobileCoreServices.framework */,
+				EC3DB14517BD47E700E33922 /* Third Parties */,
+				EC3DB16817BD483C00E33922 /* QuartzCore.framework */,
+				EC3DAF9317BD400B00E33922 /* UIKit.framework */,
+				EC3DAF9517BD400B00E33922 /* Foundation.framework */,
+				EC3DAF9717BD400B00E33922 /* CoreGraphics.framework */,
+				EC3DB16A17BD484B00E33922 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC3DAF9917BD400B00E33922 /* Infiniti */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DAFB917BD413F00E33922 /* JsonKit */,
+				EC3DAFBD17BD415B00E33922 /* Modules */,
+				EC3DAFB517BD412400E33922 /* SEECAppDelegate.h */,
+				EC3DAFB617BD412400E33922 /* SEECAppDelegate.m */,
+				EC3DAFB717BD412400E33922 /* SEECConstants.h */,
+				EC3DAF9A17BD400B00E33922 /* Supporting Files */,
+				EC3DB09417BD442000E33922 /* Categories */,
+				EC3DB0A517BD446C00E33922 /* Views and Controllers */,
+			);
+			path = Infiniti;
+			sourceTree = "<group>";
+		};
+		EC3DAF9A17BD400B00E33922 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DAFBF17BD418000E33922 /* Static JSONs */,
+				EC3DAFC017BD418800E33922 /* Images */,
+				EC3DB09217BD437100E33922 /* Main.storyboard */,
+				EC3DAF9B17BD400B00E33922 /* Infiniti-Info.plist */,
+				EC3DAF9C17BD400B00E33922 /* InfoPlist.strings */,
+				EC3DAF9F17BD400B00E33922 /* main.m */,
+				EC3DAFA117BD400B00E33922 /* Infiniti-Prefix.pch */,
+				EC3DAFA517BD400B00E33922 /* Default.png */,
+				EC3DAFA717BD400B00E33922 /* Default@2x.png */,
+				EC3DAFA917BD400B00E33922 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC3DAFB917BD413F00E33922 /* JsonKit */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB16C17BD490200E33922 /* JSONKit.h */,
+				EC3DB16D17BD490200E33922 /* JSONKit.m */,
+			);
+			name = JsonKit;
+			sourceTree = "<group>";
+		};
+		EC3DAFBD17BD415B00E33922 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		EC3DAFBF17BD418000E33922 /* Static JSONs */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DAFC117BD419600E33922 /* seec_phaseCatalog.json */,
+				EC3DAFC217BD419600E33922 /* seec_manual.json */,
+				EC3DAFC317BD419600E33922 /* seec_standard.json */,
+				EC3DAFC417BD419600E33922 /* seec_activity.json */,
+				EC3DAFC517BD419600E33922 /* seec_login.json */,
+				EC3DAFC617BD419600E33922 /* seec_user.json */,
+				EC3DAFC717BD419600E33922 /* iseec_state.json */,
+				EC3DAFC817BD419600E33922 /* seec_zone.json */,
+				EC3DAFC917BD419600E33922 /* seec_branch.json */,
+				EC3DAFCA17BD419600E33922 /* seec_branchType.json */,
+				EC3DAFCB17BD419600E33922 /* iseec_city.json */,
+				EC3DAFCC17BD419600E33922 /* seec_department.json */,
+				EC3DAFCD17BD419600E33922 /* seec_owner.json */,
+				EC3DAFCE17BD419600E33922 /* seec_role.json */,
+				DB78E17917CD196400B8D963 /* iseec_state.json.back */,
+				DB78E17B17CD1B0200B8D963 /* iseec_city.json.back */,
+				DB78E17D17CD230A00B8D963 /* seec_department.json.back */,
+				DB78E17F17CD23F700B8D963 /* seec_branchType.json.back */,
+				DBAA0D0617CD70B00075A4EE /* seec_manual.json.back */,
+			);
+			name = "Static JSONs";
+			sourceTree = "<group>";
+		};
+		EC3DAFC017BD418800E33922 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DAFDD17BD41A200E33922 /* Mockups */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EC3DAFDD17BD41A200E33922 /* Mockups */ = {
+			isa = PBXGroup;
+			children = (
+				DBCE493217D16349002A6896 /* GraphicsReport.png */,
+				DBCE492E17D162E7002A6896 /* background_login.png */,
+				DBCE492F17D162E7002A6896 /* nissan.png */,
+				DBCE492A17D162B7002A6896 /* logos generales.png */,
+				DBCE492B17D162B7002A6896 /* seec_logo.png */,
+				DBCE492817D1627F002A6896 /* reporte3.png */,
+				DBCE492617D1625B002A6896 /* reporte1.png */,
+				DBCE492217D161A5002A6896 /* boton.png */,
+				EC3DAFDE17BD41B300E33922 /* ipad_web_on.png */,
+				EC3DAFDF17BD41B300E33922 /* web-ipad_on.png */,
+				EC3DAFE217BD41B300E33922 /* camera4.png */,
+				EC3DAFE317BD41B300E33922 /* sectionBg.png */,
+				EC3DAFE417BD41B300E33922 /* disclosure.png */,
+				EC3DAFE517BD41B300E33922 /* bar.png */,
+				EC3DAFE617BD41B300E33922 /* selected.png */,
+				EC3DAFE717BD41B300E33922 /* silver_selected.png */,
+				EC3DAFE817BD41B300E33922 /* shrink.png */,
+				EC3DAFE917BD41B300E33922 /* trash.png */,
+				EC3DAFEA17BD41B300E33922 /* clip.png */,
+				EC3DAFEB17BD41B300E33922 /* Trash1.png */,
+				EC3DAFEC17BD41B300E33922 /* ExamplePhoto_0.JPG */,
+				EC3DAFED17BD41B300E33922 /* ExamplePhoto_1.JPG */,
+				EC3DAFEE17BD41B300E33922 /* ExamplePhoto_2.JPG */,
+				EC3DAFEF17BD41B300E33922 /* ExamplePhoto_3.JPG */,
+				EC3DAFF017BD41B300E33922 /* ExamplePhoto_4.JPG */,
+				EC3DAFF117BD41B300E33922 /* ExamplePhoto_5.JPG */,
+				EC3DAFF217BD41B300E33922 /* applied.png */,
+				EC3DAFF317BD41B300E33922 /* noEvaluation.png */,
+				EC3DAFF417BD41B300E33922 /* noReached.png */,
+				EC3DAFF517BD41B300E33922 /* notApplied.png */,
+				EC3DAFF617BD41B300E33922 /* gold_selected.png */,
+				EC3DAFF717BD41B300E33922 /* textBanner_seec.png */,
+				EC3DAFF817BD41B300E33922 /* green.png */,
+				EC3DAFF917BD41B300E33922 /* red.png */,
+				EC3DAFFA17BD41B300E33922 /* yellow.png */,
+				EC3DAFFC17BD41B300E33922 /* BACKGRUND_GENERIC.png */,
+				EC3DAFFD17BD41B300E33922 /* table_eight_items.png */,
+				EC3DAFFE17BD41B300E33922 /* BUTTON_EXIT_PUSH.png */,
+				EC3DAFFF17BD41B300E33922 /* BUTTON_EXIT.png */,
+				EC3DB00017BD41B300E33922 /* table_seven_items.png */,
+				EC3DB00117BD41B300E33922 /* boton logout-push.png */,
+				EC3DB00217BD41B300E33922 /* boton logout.png */,
+				EC3DB00317BD41B300E33922 /* arbolmenu.png */,
+				EC3DB00417BD41B300E33922 /* actualizaciones_over.png */,
+				EC3DB00517BD41B300E33922 /* actualizaciones.png */,
+				EC3DB00617BD41B300E33922 /* table_three_items.png */,
+				EC3DB00717BD41B300E33922 /* dato.png */,
+				EC3DB00817BD41B300E33922 /* certificado oro.png */,
+				EC3DB00917BD41B300E33922 /* certificado plata.png */,
+				EC3DB00A17BD41B300E33922 /* actualizar_bar.png */,
+				EC3DB00B17BD41B300E33922 /* addfile.png */,
+				EC3DB00C17BD41B300E33922 /* addfile_push.png */,
+				EC3DB00D17BD41B300E33922 /* auditoria_bar.png */,
+				EC3DB00E17BD41B300E33922 /* auditoria_over.png */,
+				EC3DB00F17BD41B300E33922 /* auditoria.png */,
+				EC3DB01017BD41B300E33922 /* ayuda_bar.png */,
+				EC3DB01117BD41B300E33922 /* ayuda_over.png */,
+				EC3DB01217BD41B300E33922 /* ayuda.png */,
+				EC3DB01317BD41B300E33922 /* background_general.png */,
+				EC3DB01517BD41B300E33922 /* board_1.png */,
+				EC3DB01617BD41B300E33922 /* template.png */,
+				EC3DB01717BD41B300E33922 /* board.png */,
+				EC3DB01917BD41B300E33922 /* button_generic_push.png */,
+				EC3DB01A17BD41B300E33922 /* button_generic.png */,
+				EC3DB01B17BD41B300E33922 /* done_push.png */,
+				EC3DB01C17BD41B300E33922 /* done.png */,
+				EC3DB01D17BD41B300E33922 /* entrar_login_boton_push.png */,
+				EC3DB01E17BD41B300E33922 /* entrar_login_boton.png */,
+				EC3DB01F17BD41B300E33922 /* field_replication.png */,
+				EC3DB02017BD41B300E33922 /* ipad_web.png */,
+				EC3DB02217BD41B300E33922 /* neutral_push.png */,
+				EC3DB02317BD41B300E33922 /* neutral.png */,
+				EC3DB02517BD41B300E33922 /* phase_field.png */,
+				EC3DB02617BD41B300E33922 /* replica_bar.png */,
+				EC3DB02717BD41B300E33922 /* replica_over.png */,
+				EC3DB02817BD41B300E33922 /* replica.png */,
+				EC3DB02917BD41B300E33922 /* reportes_bar.png */,
+				EC3DB02A17BD41B300E33922 /* reportes_over.png */,
+				EC3DB02B17BD41B300E33922 /* reportes.png */,
+				EC3DB02D17BD41B300E33922 /* table_six_items.png */,
+				EC3DB02E17BD41B300E33922 /* table_two_items.png */,
+				EC3DB02F17BD41B300E33922 /* table.png */,
+				EC3DB03017BD41B300E33922 /* test_conection.png */,
+				EC3DB03117BD41B300E33922 /* undone_push.png */,
+				EC3DB03217BD41B300E33922 /* undone.png */,
+				EC3DB03317BD41B300E33922 /* user_black.png */,
+				EC3DB03417BD41B300E33922 /* usuario_over.png */,
+				EC3DB03517BD41B300E33922 /* usuario.png */,
+				EC3DB03617BD41B300E33922 /* usuarios_bar.png */,
+				EC3DB03717BD41B300E33922 /* web-ipad.png */,
+			);
+			name = Mockups;
+			sourceTree = "<group>";
+		};
+		EC3DB09417BD442000E33922 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB09517BD443D00E33922 /* Persistence */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		EC3DB09517BD443D00E33922 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB09617BD444D00E33922 /* NSData+Persistence.h */,
+				EC3DB09717BD444D00E33922 /* NSData+Persistence.m */,
+				EC3DB09817BD444D00E33922 /* UIImage+Persistence.h */,
+				EC3DB09917BD444D00E33922 /* UIImage+Persistence.m */,
+				EC3DB09A17BD444D00E33922 /* NSDictionary+Persistence.h */,
+				EC3DB09B17BD444D00E33922 /* NSDictionary+Persistence.m */,
+				EC3DB09C17BD444D00E33922 /* NSArray+Persistence.h */,
+				EC3DB09D17BD444D00E33922 /* NSArray+Persistence.m */,
+				EC3DB09E17BD444D00E33922 /* NSObject+PersistanceConvenience.h */,
+				EC3DB09F17BD444D00E33922 /* NSObject+PersistanceConvenience.m */,
+			);
+			name = Persistence;
+			sourceTree = "<group>";
+		};
+		EC3DB0A517BD446C00E33922 /* Views and Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB14117BD479300E33922 /* Reportes */,
+				EC3DB13D17BD478100E33922 /* General */,
+				EC3DB13917BD477400E33922 /* Login */,
+				EC3DB13517BD476700E33922 /* Menu */,
+				EC3DB12A17BD473A00E33922 /* Auditoria */,
+				EC3DB11617BD46E400E33922 /* Evaluacion */,
+				EC3DB0F317BD463A00E33922 /* Replica */,
+				EC3DB0EF17BD462400E33922 /* DealerInfo */,
+				EC3DB0EB17BD460700E33922 /* userSelection */,
+				EC3DB0E717BD45F100E33922 /* utilities */,
+				EC3DB0E317BD45DC00E33922 /* ssicsi */,
+				EC3DB0DF17BD45CA00E33922 /* Responsible */,
+				EC3DB0D517BD45B400E33922 /* Dealers */,
+				EC3DB0D117BD459D00E33922 /* search */,
+				EC3DB0CD17BD458E00E33922 /* setSearch */,
+				EC3DB0C917BD457A00E33922 /* Camera */,
+				EC3DB0C517BD456500E33922 /* UserMgr */,
+				EC3DB0C117BD454D00E33922 /* UpDateMgr */,
+				EC3DB0BC17BD451A00E33922 /* ReportMgr */,
+				EC3DB0B817BD450800E33922 /* Help */,
+				EC3DB0AB17BD44F000E33922 /* Gallery */,
+				EC3DB0A617BD44C000E33922 /* ImageCollection */,
+			);
+			name = "Views and Controllers";
+			sourceTree = "<group>";
+		};
+		EC3DB0A617BD44C000E33922 /* ImageCollection */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0A717BD44D500E33922 /* SEECImageCollectorViewController.h */,
+				EC3DB0A817BD44D500E33922 /* SEECImageCollectorViewController.m */,
+			);
+			name = ImageCollection;
+			sourceTree = "<group>";
+		};
+		EC3DB0AB17BD44F000E33922 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0AC17BD44FF00E33922 /* FGalleryPhoto.h */,
+				EC3DB0AD17BD44FF00E33922 /* FGalleryPhoto.m */,
+				EC3DB0AE17BD44FF00E33922 /* FGalleryPhotoView.h */,
+				EC3DB0AF17BD44FF00E33922 /* FGalleryPhotoView.m */,
+				EC3DB0B017BD44FF00E33922 /* FGalleryViewController.h */,
+				EC3DB0B117BD44FF00E33922 /* FGalleryViewController.m */,
+				EC3DB0B217BD44FF00E33922 /* SEECPhotoGallerySource.h */,
+				EC3DB0B317BD44FF00E33922 /* SEECPhotoGallerySource.m */,
+			);
+			name = Gallery;
+			sourceTree = "<group>";
+		};
+		EC3DB0B817BD450800E33922 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0B917BD451400E33922 /* SEECHelpViewController.h */,
+				EC3DB0BA17BD451400E33922 /* SEECHelpViewController.m */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		EC3DB0BC17BD451A00E33922 /* ReportMgr */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0BD17BD452400E33922 /* certification */,
+				EC3DB0BE17BD453D00E33922 /* SEECReportViewController.h */,
+				EC3DB0BF17BD453D00E33922 /* SEECReportViewController.m */,
+			);
+			name = ReportMgr;
+			sourceTree = "<group>";
+		};
+		EC3DB0BD17BD452400E33922 /* certification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = certification;
+			sourceTree = "<group>";
+		};
+		EC3DB0C117BD454D00E33922 /* UpDateMgr */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0C217BD455B00E33922 /* SEECUpDateAdminViewController.h */,
+				EC3DB0C317BD455B00E33922 /* SEECUpDateAdminViewController.m */,
+			);
+			name = UpDateMgr;
+			sourceTree = "<group>";
+		};
+		EC3DB0C517BD456500E33922 /* UserMgr */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0C617BD457100E33922 /* SEECUserAdminViewController.h */,
+				EC3DB0C717BD457100E33922 /* SEECUserAdminViewController.m */,
+			);
+			name = UserMgr;
+			sourceTree = "<group>";
+		};
+		EC3DB0C917BD457A00E33922 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0CA17BD458600E33922 /* UIViewController+Camera.h */,
+				EC3DB0CB17BD458600E33922 /* UIViewController+Camera.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		EC3DB0CD17BD458E00E33922 /* setSearch */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0CE17BD459800E33922 /* SEECSetSearchViewController.h */,
+				EC3DB0CF17BD459800E33922 /* SEECSetSearchViewController.m */,
+			);
+			name = setSearch;
+			sourceTree = "<group>";
+		};
+		EC3DB0D117BD459D00E33922 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0D217BD45AB00E33922 /* SEECSearchViewController.h */,
+				EC3DB0D317BD45AB00E33922 /* SEECSearchViewController.m */,
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
+		EC3DB0D517BD45B400E33922 /* Dealers */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0D617BD45C100E33922 /* SEECStatesTableViewController.h */,
+				EC3DB0D717BD45C100E33922 /* SEECStatesTableViewController.m */,
+				EC3DB0D817BD45C100E33922 /* SEECCitiesTableViewController.h */,
+				EC3DB0D917BD45C100E33922 /* SEECCitiesTableViewController.m */,
+				EC3DB0DA17BD45C100E33922 /* SEECSucursalesTableViewController.h */,
+				EC3DB0DB17BD45C100E33922 /* SEECSucursalesTableViewController.m */,
+			);
+			name = Dealers;
+			sourceTree = "<group>";
+		};
+		EC3DB0DF17BD45CA00E33922 /* Responsible */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0E017BD45D500E33922 /* SEECResponsibleAreaViewController.h */,
+				EC3DB0E117BD45D500E33922 /* SEECResponsibleAreaViewController.m */,
+			);
+			name = Responsible;
+			sourceTree = "<group>";
+		};
+		EC3DB0E317BD45DC00E33922 /* ssicsi */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0E417BD45E900E33922 /* SEECSSICSIViewController.h */,
+				EC3DB0E517BD45E900E33922 /* SEECSSICSIViewController.m */,
+			);
+			name = ssicsi;
+			sourceTree = "<group>";
+		};
+		EC3DB0E717BD45F100E33922 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0E817BD45FE00E33922 /* SEECUtilities.h */,
+				EC3DB0E917BD45FE00E33922 /* SEECUtilities.m */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		EC3DB0EB17BD460700E33922 /* userSelection */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0EC17BD461200E33922 /* SEECUser.h */,
+				EC3DB0ED17BD461200E33922 /* SEECUser.m */,
+			);
+			name = userSelection;
+			sourceTree = "<group>";
+		};
+		EC3DB0EF17BD462400E33922 /* DealerInfo */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0F017BD462F00E33922 /* SEECDealerInfoViewController.h */,
+				EC3DB0F117BD462F00E33922 /* SEECDealerInfoViewController.m */,
+			);
+			name = DealerInfo;
+			sourceTree = "<group>";
+		};
+		EC3DB0F317BD463A00E33922 /* Replica */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0F817BD465900E33922 /* SearchByPhase */,
+				EC3DB0F717BD465200E33922 /* ReplicaType */,
+				EC3DB0F617BD464B00E33922 /* Evidence */,
+				EC3DB0F517BD464600E33922 /* Alert */,
+				EC3DB0F417BD463F00E33922 /* manager */,
+			);
+			name = Replica;
+			sourceTree = "<group>";
+		};
+		EC3DB0F417BD463F00E33922 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0F917BD467F00E33922 /* SEECReplicaViewController.m */,
+				EC3DB0FA17BD467F00E33922 /* SEECReplicaViewController.h */,
+			);
+			name = manager;
+			sourceTree = "<group>";
+		};
+		EC3DB0F517BD464600E33922 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB0FC17BD468700E33922 /* SEECAlertViewController.h */,
+				EC3DB0FD17BD468700E33922 /* SEECAlertViewController.m */,
+			);
+			name = Alert;
+			sourceTree = "<group>";
+		};
+		EC3DB0F617BD464B00E33922 /* Evidence */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB10017BD46A100E33922 /* RecipeCollectionViewController.h */,
+				EC3DB10117BD46A100E33922 /* RecipeCollectionViewController.m */,
+				EC3DB10217BD46A100E33922 /* RecipeViewCell.h */,
+				EC3DB10317BD46A100E33922 /* RecipeViewCell.m */,
+				EC3DB10417BD46A100E33922 /* SEECEvaluationWebViewController.h */,
+				EC3DB10517BD46A100E33922 /* SEECEvaluationWebViewController.m */,
+				EC3DB0FF17BD469500E33922 /* imagenes */,
+			);
+			name = Evidence;
+			sourceTree = "<group>";
+		};
+		EC3DB0F717BD465200E33922 /* ReplicaType */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB10D17BD46C400E33922 /* SEECTypeViewController.h */,
+				EC3DB10E17BD46C400E33922 /* SEECTypeViewController.m */,
+			);
+			name = ReplicaType;
+			sourceTree = "<group>";
+		};
+		EC3DB0F817BD465900E33922 /* SearchByPhase */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB11017BD46CE00E33922 /* SEECSearchByPhaseViewController.h */,
+				EC3DB11117BD46CE00E33922 /* SEECSearchByPhaseViewController.m */,
+				EC3DB11217BD46CE00E33922 /* SEECBranchFromWebViewController.h */,
+				EC3DB11317BD46CE00E33922 /* SEECBranchFromWebViewController.m */,
+			);
+			name = SearchByPhase;
+			sourceTree = "<group>";
+		};
+		EC3DB0FF17BD469500E33922 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB10917BD46B900E33922 /* photo-frame-selected.jpg */,
+				EC3DB10A17BD46B900E33922 /* photo-frame-2.png */,
+			);
+			name = imagenes;
+			sourceTree = "<group>";
+		};
+		EC3DB11617BD46E400E33922 /* Evaluacion */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB11717BD46E900E33922 /* Form */,
+			);
+			name = Evaluacion;
+			sourceTree = "<group>";
+		};
+		EC3DB11717BD46E900E33922 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB12717BD472D00E33922 /* SEECEvaluationViewController.h */,
+				EC3DB12817BD472D00E33922 /* SEECEvaluationViewController.m */,
+				EC3DB11A17BD470300E33922 /* TreeManual */,
+				EC3DB11917BD46F800E33922 /* ApplyEvaluation */,
+				EC3DB11817BD46EF00E33922 /* VerticalTree */,
+			);
+			name = Form;
+			sourceTree = "<group>";
+		};
+		EC3DB11817BD46EF00E33922 /* VerticalTree */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB11B17BD471200E33922 /* SEECViewController.h */,
+				EC3DB11C17BD471200E33922 /* SEECViewController.m */,
+			);
+			name = VerticalTree;
+			sourceTree = "<group>";
+		};
+		EC3DB11917BD46F800E33922 /* ApplyEvaluation */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB11E17BD471C00E33922 /* SEECApplyEvaluationViewController.h */,
+				EC3DB11F17BD471C00E33922 /* SEECApplyEvaluationViewController.m */,
+			);
+			name = ApplyEvaluation;
+			sourceTree = "<group>";
+		};
+		EC3DB11A17BD470300E33922 /* TreeManual */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB12117BD472500E33922 /* SEECNSSWViewController.h */,
+				EC3DB12217BD472500E33922 /* SEECNSSWViewController.m */,
+				EC3DB12317BD472500E33922 /* SEECNSSWDetailViewController.h */,
+				EC3DB12417BD472500E33922 /* SEECNSSWDetailViewController.m */,
+			);
+			name = TreeManual;
+			sourceTree = "<group>";
+		};
+		EC3DB12A17BD473A00E33922 /* Auditoria */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB13217BD475F00E33922 /* SEECAuditoriaViewController.h */,
+				EC3DB13317BD475F00E33922 /* SEECAuditoriaViewController.m */,
+				EC3DB12B17BD474400E33922 /* phase */,
+			);
+			name = Auditoria;
+			sourceTree = "<group>";
+		};
+		EC3DB12B17BD474400E33922 /* phase */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB12C17BD475800E33922 /* SEECPhaseViewController.h */,
+				EC3DB12D17BD475800E33922 /* SEECPhaseViewController.m */,
+				EC3DB12E17BD475800E33922 /* SEECPhaseWebViewController.h */,
+				EC3DB12F17BD475800E33922 /* SEECPhaseWebViewController.m */,
+			);
+			name = phase;
+			sourceTree = "<group>";
+		};
+		EC3DB13517BD476700E33922 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB13617BD477100E33922 /* SEECMenuViewController.h */,
+				EC3DB13717BD477100E33922 /* SEECMenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		EC3DB13917BD477400E33922 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB13A17BD477D00E33922 /* SEECLoginViewController.h */,
+				EC3DB13B17BD477D00E33922 /* SEECLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		EC3DB13D17BD478100E33922 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB13E17BD478D00E33922 /* SEECMainTabBarController.h */,
+				EC3DB13F17BD478D00E33922 /* SEECMainTabBarController.m */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		EC3DB14117BD479300E33922 /* Reportes */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB14217BD47B100E33922 /* SEECReportesViewController.h */,
+				EC3DB14317BD47B100E33922 /* SEECReportesViewController.m */,
+			);
+			name = Reportes;
+			sourceTree = "<group>";
+		};
+		EC3DB14517BD47E700E33922 /* Third Parties */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB14617BD47FB00E33922 /* AFNetworking */,
+			);
+			name = "Third Parties";
+			sourceTree = "<group>";
+		};
+		EC3DB14617BD47FB00E33922 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DB14717BD480D00E33922 /* AFHTTPClient.h */,
+				EC3DB14817BD480D00E33922 /* AFHTTPClient.m */,
+				EC3DB14917BD480D00E33922 /* AFHTTPRequestOperation.h */,
+				EC3DB14A17BD480D00E33922 /* AFHTTPRequestOperation.m */,
+				EC3DB14B17BD480D00E33922 /* AFImageRequestOperation.h */,
+				EC3DB14C17BD480D00E33922 /* AFImageRequestOperation.m */,
+				EC3DB14D17BD480D00E33922 /* AFJSONRequestOperation.h */,
+				EC3DB14E17BD480D00E33922 /* AFJSONRequestOperation.m */,
+				EC3DB14F17BD480D00E33922 /* AFJSONUtilities.h */,
+				EC3DB15017BD480D00E33922 /* AFJSONUtilities.m */,
+				EC3DB15117BD480D00E33922 /* AFNetworkActivityIndicatorManager.h */,
+				EC3DB15217BD480D00E33922 /* AFNetworkActivityIndicatorManager.m */,
+				EC3DB15317BD480D00E33922 /* AFNetworking.h */,
+				EC3DB15417BD480D00E33922 /* AFPropertyListRequestOperation.h */,
+				EC3DB15517BD480D00E33922 /* AFPropertyListRequestOperation.m */,
+				EC3DB15617BD480D00E33922 /* AFURLConnectionOperation.h */,
+				EC3DB15717BD480D00E33922 /* AFURLConnectionOperation.m */,
+				EC3DB15817BD480D00E33922 /* AFXMLRequestOperation.h */,
+				EC3DB15917BD480D00E33922 /* AFXMLRequestOperation.m */,
+				EC3DB15A17BD480D00E33922 /* UIImageView+AFNetworking.h */,
+				EC3DB15B17BD480D00E33922 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3DAF8F17BD400B00E33922 /* Infiniti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3DAFAD17BD400B00E33922 /* Build configuration list for PBXNativeTarget "Infiniti" */;
+			buildPhases = (
+				EC3DAF8C17BD400B00E33922 /* Sources */,
+				EC3DAF8D17BD400B00E33922 /* Frameworks */,
+				EC3DAF8E17BD400B00E33922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Infiniti;
+			productName = Infiniti;
+			productReference = EC3DAF9017BD400B00E33922 /* Infiniti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC3DAF8817BD400B00E33922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = mbt;
+			};
+			buildConfigurationList = EC3DAF8B17BD400B00E33922 /* Build configuration list for PBXProject "Infiniti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC3DAF8717BD400B00E33922;
+			productRefGroup = EC3DAF9117BD400B00E33922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3DAF8F17BD400B00E33922 /* Infiniti */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC3DAF8E17BD400B00E33922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3DAF9E17BD400B00E33922 /* InfoPlist.strings in Resources */,
+				EC3DAFA617BD400B00E33922 /* Default.png in Resources */,
+				EC3DAFA817BD400B00E33922 /* Default@2x.png in Resources */,
+				EC3DAFAA17BD400B00E33922 /* Default-568h@2x.png in Resources */,
+				EC3DAFCF17BD419600E33922 /* seec_phaseCatalog.json in Resources */,
+				EC3DAFD017BD419600E33922 /* seec_manual.json in Resources */,
+				EC3DAFD117BD419600E33922 /* seec_standard.json in Resources */,
+				EC3DAFD217BD419600E33922 /* seec_activity.json in Resources */,
+				EC3DAFD317BD419600E33922 /* seec_login.json in Resources */,
+				EC3DAFD417BD419600E33922 /* seec_user.json in Resources */,
+				EC3DAFD517BD419600E33922 /* iseec_state.json in Resources */,
+				EC3DAFD617BD419600E33922 /* seec_zone.json in Resources */,
+				EC3DAFD717BD419600E33922 /* seec_branch.json in Resources */,
+				EC3DAFD817BD419600E33922 /* seec_branchType.json in Resources */,
+				EC3DAFD917BD419600E33922 /* iseec_city.json in Resources */,
+				EC3DAFDA17BD419600E33922 /* seec_department.json in Resources */,
+				EC3DAFDB17BD419600E33922 /* seec_owner.json in Resources */,
+				EC3DAFDC17BD419600E33922 /* seec_role.json in Resources */,
+				EC3DB03817BD41B300E33922 /* ipad_web_on.png in Resources */,
+				EC3DB03917BD41B300E33922 /* web-ipad_on.png in Resources */,
+				EC3DB03C17BD41B300E33922 /* camera4.png in Resources */,
+				EC3DB03D17BD41B300E33922 /* sectionBg.png in Resources */,
+				EC3DB03E17BD41B300E33922 /* disclosure.png in Resources */,
+				EC3DB03F17BD41B300E33922 /* bar.png in Resources */,
+				EC3DB04017BD41B300E33922 /* selected.png in Resources */,
+				EC3DB04117BD41B300E33922 /* silver_selected.png in Resources */,
+				EC3DB04217BD41B300E33922 /* shrink.png in Resources */,
+				EC3DB04317BD41B300E33922 /* trash.png in Resources */,
+				EC3DB04417BD41B300E33922 /* clip.png in Resources */,
+				EC3DB04517BD41B300E33922 /* Trash1.png in Resources */,
+				EC3DB04617BD41B300E33922 /* ExamplePhoto_0.JPG in Resources */,
+				EC3DB04717BD41B300E33922 /* ExamplePhoto_1.JPG in Resources */,
+				EC3DB04817BD41B300E33922 /* ExamplePhoto_2.JPG in Resources */,
+				EC3DB04917BD41B300E33922 /* ExamplePhoto_3.JPG in Resources */,
+				EC3DB04A17BD41B300E33922 /* ExamplePhoto_4.JPG in Resources */,
+				EC3DB04B17BD41B300E33922 /* ExamplePhoto_5.JPG in Resources */,
+				EC3DB04C17BD41B300E33922 /* applied.png in Resources */,
+				EC3DB04D17BD41B300E33922 /* noEvaluation.png in Resources */,
+				EC3DB04E17BD41B300E33922 /* noReached.png in Resources */,
+				EC3DB04F17BD41B300E33922 /* notApplied.png in Resources */,
+				EC3DB05017BD41B300E33922 /* gold_selected.png in Resources */,
+				EC3DB05117BD41B300E33922 /* textBanner_seec.png in Resources */,
+				EC3DB05217BD41B300E33922 /* green.png in Resources */,
+				EC3DB05317BD41B300E33922 /* red.png in Resources */,
+				EC3DB05417BD41B300E33922 /* yellow.png in Resources */,
+				EC3DB05617BD41B300E33922 /* BACKGRUND_GENERIC.png in Resources */,
+				EC3DB05717BD41B300E33922 /* table_eight_items.png in Resources */,
+				EC3DB05817BD41B300E33922 /* BUTTON_EXIT_PUSH.png in Resources */,
+				EC3DB05917BD41B300E33922 /* BUTTON_EXIT.png in Resources */,
+				EC3DB05A17BD41B300E33922 /* table_seven_items.png in Resources */,
+				EC3DB05B17BD41B300E33922 /* boton logout-push.png in Resources */,
+				EC3DB05C17BD41B300E33922 /* boton logout.png in Resources */,
+				EC3DB05D17BD41B300E33922 /* arbolmenu.png in Resources */,
+				EC3DB05E17BD41B300E33922 /* actualizaciones_over.png in Resources */,
+				EC3DB05F17BD41B300E33922 /* actualizaciones.png in Resources */,
+				EC3DB06017BD41B300E33922 /* table_three_items.png in Resources */,
+				EC3DB06117BD41B300E33922 /* dato.png in Resources */,
+				EC3DB06217BD41B300E33922 /* certificado oro.png in Resources */,
+				EC3DB06317BD41B300E33922 /* certificado plata.png in Resources */,
+				EC3DB06417BD41B300E33922 /* actualizar_bar.png in Resources */,
+				EC3DB06517BD41B300E33922 /* addfile.png in Resources */,
+				EC3DB06617BD41B300E33922 /* addfile_push.png in Resources */,
+				EC3DB06717BD41B300E33922 /* auditoria_bar.png in Resources */,
+				EC3DB06817BD41B300E33922 /* auditoria_over.png in Resources */,
+				EC3DB06917BD41B300E33922 /* auditoria.png in Resources */,
+				EC3DB06A17BD41B300E33922 /* ayuda_bar.png in Resources */,
+				EC3DB06B17BD41B300E33922 /* ayuda_over.png in Resources */,
+				EC3DB06C17BD41B300E33922 /* ayuda.png in Resources */,
+				EC3DB06D17BD41B300E33922 /* background_general.png in Resources */,
+				EC3DB06F17BD41B300E33922 /* board_1.png in Resources */,
+				EC3DB07017BD41B300E33922 /* template.png in Resources */,
+				EC3DB07117BD41B300E33922 /* board.png in Resources */,
+				EC3DB07317BD41B300E33922 /* button_generic_push.png in Resources */,
+				EC3DB07417BD41B300E33922 /* button_generic.png in Resources */,
+				EC3DB07517BD41B300E33922 /* done_push.png in Resources */,
+				EC3DB07617BD41B300E33922 /* done.png in Resources */,
+				EC3DB07717BD41B300E33922 /* entrar_login_boton_push.png in Resources */,
+				EC3DB07817BD41B300E33922 /* entrar_login_boton.png in Resources */,
+				EC3DB07917BD41B300E33922 /* field_replication.png in Resources */,
+				EC3DB07A17BD41B300E33922 /* ipad_web.png in Resources */,
+				EC3DB07C17BD41B300E33922 /* neutral_push.png in Resources */,
+				EC3DB07D17BD41B300E33922 /* neutral.png in Resources */,
+				EC3DB07F17BD41B300E33922 /* phase_field.png in Resources */,
+				EC3DB08017BD41B300E33922 /* replica_bar.png in Resources */,
+				EC3DB08117BD41B300E33922 /* replica_over.png in Resources */,
+				EC3DB08217BD41B300E33922 /* replica.png in Resources */,
+				EC3DB08317BD41B300E33922 /* reportes_bar.png in Resources */,
+				EC3DB08417BD41B300E33922 /* reportes_over.png in Resources */,
+				EC3DB08517BD41B300E33922 /* reportes.png in Resources */,
+				EC3DB08717BD41B300E33922 /* table_six_items.png in Resources */,
+				EC3DB08817BD41B300E33922 /* table_two_items.png in Resources */,
+				EC3DB08917BD41B300E33922 /* table.png in Resources */,
+				EC3DB08A17BD41B300E33922 /* test_conection.png in Resources */,
+				EC3DB08B17BD41B300E33922 /* undone_push.png in Resources */,
+				EC3DB08C17BD41B300E33922 /* undone.png in Resources */,
+				EC3DB08D17BD41B300E33922 /* user_black.png in Resources */,
+				EC3DB08E17BD41B300E33922 /* usuario_over.png in Resources */,
+				EC3DB08F17BD41B300E33922 /* usuario.png in Resources */,
+				EC3DB09017BD41B300E33922 /* usuarios_bar.png in Resources */,
+				EC3DB09117BD41B300E33922 /* web-ipad.png in Resources */,
+				EC3DB09317BD437100E33922 /* Main.storyboard in Resources */,
+				EC3DB10B17BD46B900E33922 /* photo-frame-selected.jpg in Resources */,
+				EC3DB10C17BD46B900E33922 /* photo-frame-2.png in Resources */,
+				DB78E17A17CD196400B8D963 /* iseec_state.json.back in Resources */,
+				DB78E17C17CD1B0200B8D963 /* iseec_city.json.back in Resources */,
+				DB78E17E17CD230B00B8D963 /* seec_department.json.back in Resources */,
+				DB78E18017CD23F800B8D963 /* seec_branchType.json.back in Resources */,
+				DBAA0D0717CD70B00075A4EE /* seec_manual.json.back in Resources */,
+				DBD8CCEB17D157D500D7772E /* icon2x.png in Resources */,
+				DBCE492317D161A5002A6896 /* boton.png in Resources */,
+				DBCE492717D1625B002A6896 /* reporte1.png in Resources */,
+				DBCE492917D1627F002A6896 /* reporte3.png in Resources */,
+				DBCE492C17D162B7002A6896 /* logos generales.png in Resources */,
+				DBCE492D17D162B7002A6896 /* seec_logo.png in Resources */,
+				DBCE493017D162E7002A6896 /* background_login.png in Resources */,
+				DBCE493117D162E7002A6896 /* nissan.png in Resources */,
+				DBCE493317D16349002A6896 /* GraphicsReport.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3DAF8C17BD400B00E33922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3DAFA017BD400B00E33922 /* main.m in Sources */,
+				EC3DAFB317BD410600E33922 /* SEECServerRequest.m in Sources */,
+				EC3DAFB817BD412400E33922 /* SEECAppDelegate.m in Sources */,
+				EC3DB0A017BD444D00E33922 /* NSData+Persistence.m in Sources */,
+				EC3DB0A117BD444D00E33922 /* UIImage+Persistence.m in Sources */,
+				EC3DB0A217BD444D00E33922 /* NSDictionary+Persistence.m in Sources */,
+				EC3DB0A317BD444D00E33922 /* NSArray+Persistence.m in Sources */,
+				EC3DB0A417BD444D00E33922 /* NSObject+PersistanceConvenience.m in Sources */,
+				EC3DB0A917BD44D500E33922 /* SEECImageCollectorViewController.m in Sources */,
+				EC3DB0B417BD44FF00E33922 /* FGalleryPhoto.m in Sources */,
+				EC3DB0B517BD44FF00E33922 /* FGalleryPhotoView.m in Sources */,
+				EC3DB0B617BD44FF00E33922 /* FGalleryViewController.m in Sources */,
+				EC3DB0B717BD44FF00E33922 /* SEECPhotoGallerySource.m in Sources */,
+				EC3DB0BB17BD451400E33922 /* SEECHelpViewController.m in Sources */,
+				EC3DB0C017BD453D00E33922 /* SEECReportViewController.m in Sources */,
+				EC3DB0C417BD455B00E33922 /* SEECUpDateAdminViewController.m in Sources */,
+				EC3DB0C817BD457100E33922 /* SEECUserAdminViewController.m in Sources */,
+				EC3DB0CC17BD458600E33922 /* UIViewController+Camera.m in Sources */,
+				EC3DB0D017BD459800E33922 /* SEECSetSearchViewController.m in Sources */,
+				EC3DB0D417BD45AB00E33922 /* SEECSearchViewController.m in Sources */,
+				EC3DB0DC17BD45C100E33922 /* SEECStatesTableViewController.m in Sources */,
+				EC3DB0DD17BD45C100E33922 /* SEECCitiesTableViewController.m in Sources */,
+				EC3DB0DE17BD45C100E33922 /* SEECSucursalesTableViewController.m in Sources */,
+				EC3DB0E217BD45D500E33922 /* SEECResponsibleAreaViewController.m in Sources */,
+				EC3DB0E617BD45E900E33922 /* SEECSSICSIViewController.m in Sources */,
+				EC3DB0EA17BD45FE00E33922 /* SEECUtilities.m in Sources */,
+				EC3DB0EE17BD461200E33922 /* SEECUser.m in Sources */,
+				EC3DB0F217BD462F00E33922 /* SEECDealerInfoViewController.m in Sources */,
+				EC3DB0FB17BD467F00E33922 /* SEECReplicaViewController.m in Sources */,
+				EC3DB0FE17BD468700E33922 /* SEECAlertViewController.m in Sources */,
+				EC3DB10617BD46A100E33922 /* RecipeCollectionViewController.m in Sources */,
+				EC3DB10717BD46A100E33922 /* RecipeViewCell.m in Sources */,
+				EC3DB10817BD46A100E33922 /* SEECEvaluationWebViewController.m in Sources */,
+				EC3DB10F17BD46C400E33922 /* SEECTypeViewController.m in Sources */,
+				EC3DB11417BD46CE00E33922 /* SEECSearchByPhaseViewController.m in Sources */,
+				EC3DB11517BD46CE00E33922 /* SEECBranchFromWebViewController.m in Sources */,
+				EC3DB11D17BD471200E33922 /* SEECViewController.m in Sources */,
+				EC3DB12017BD471C00E33922 /* SEECApplyEvaluationViewController.m in Sources */,
+				EC3DB12517BD472500E33922 /* SEECNSSWViewController.m in Sources */,
+				EC3DB12617BD472500E33922 /* SEECNSSWDetailViewController.m in Sources */,
+				EC3DB12917BD472D00E33922 /* SEECEvaluationViewController.m in Sources */,
+				EC3DB13017BD475800E33922 /* SEECPhaseViewController.m in Sources */,
+				EC3DB13117BD475800E33922 /* SEECPhaseWebViewController.m in Sources */,
+				EC3DB13417BD475F00E33922 /* SEECAuditoriaViewController.m in Sources */,
+				EC3DB13817BD477100E33922 /* SEECMenuViewController.m in Sources */,
+				EC3DB13C17BD477D00E33922 /* SEECLoginViewController.m in Sources */,
+				EC3DB14017BD478D00E33922 /* SEECMainTabBarController.m in Sources */,
+				EC3DB14417BD47B100E33922 /* SEECReportesViewController.m in Sources */,
+				EC3DB15C17BD480D00E33922 /* AFHTTPClient.m in Sources */,
+				EC3DB15D17BD480D00E33922 /* AFHTTPRequestOperation.m in Sources */,
+				EC3DB15E17BD480D00E33922 /* AFImageRequestOperation.m in Sources */,
+				EC3DB15F17BD480D00E33922 /* AFJSONRequestOperation.m in Sources */,
+				EC3DB16017BD480D00E33922 /* AFJSONUtilities.m in Sources */,
+				EC3DB16117BD480D00E33922 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				EC3DB16217BD480D00E33922 /* AFPropertyListRequestOperation.m in Sources */,
+				EC3DB16317BD480D00E33922 /* AFURLConnectionOperation.m in Sources */,
+				EC3DB16417BD480D00E33922 /* AFXMLRequestOperation.m in Sources */,
+				EC3DB16517BD480D00E33922 /* UIImageView+AFNetworking.m in Sources */,
+				EC3DB16E17BD490200E33922 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC3DAF9C17BD400B00E33922 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3DAF9D17BD400B00E33922 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC3DAFAB17BD400B00E33922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EC3DAFAC17BD400B00E33922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3DAFAE17BD400B00E33922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Infiniti/Infiniti-Prefix.pch";
+				INFOPLIST_FILE = "Infiniti/Infiniti-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC3DAFAF17BD400B00E33922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Infiniti/Infiniti-Prefix.pch";
+				INFOPLIST_FILE = "Infiniti/Infiniti-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC3DAF8B17BD400B00E33922 /* Build configuration list for PBXProject "Infiniti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3DAFAB17BD400B00E33922 /* Debug */,
+				EC3DAFAC17BD400B00E33922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3DAFAD17BD400B00E33922 /* Build configuration list for PBXNativeTarget "Infiniti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3DAFAE17BD400B00E33922 /* Debug */,
+				EC3DAFAF17BD400B00E33922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC3DAF8817BD400B00E33922 /* Project object */;
+}
